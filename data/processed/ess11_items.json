@@ -581,12 +581,72 @@
     "source": "ESS"
   },
   {
+    "id": "ESS11_D3",
+    "question_id": "D3",
+    "item_type": "behavioral",
+    "source_en": "Please tell me how often you eat vegetables or salad, excluding potatoes? Frozen vegetables should be included.",
+    "trans_de": "wie häufig Sie Gemüse oder Salat essen - Kartoffeln zählen nicht. Tiefgefrorenes Gemüse sollte mitgezählt werden.",
+    "scale": "1-7(Three times or more a day - Never)",
+    "round": "11",
+    "source": "ESS"
+  },
+  {
+    "id": "ESS11_D4",
+    "question_id": "D4",
+    "item_type": "behavioral",
+    "source_en": "On how many of the last 7 days did you walk quickly59, do sports or other physical activity for 30 minutes or longer? To be included, physical activity does not have to have been continuous.",
+    "trans_de": "An wie vielen der letzten 7 Tage sind Sie 30 Minuten oder länger entweder schnell zu Fuß gegangen oder haben sich sportlich oder auf eine andere Art körperlich betätigt? Die körperliche Tätigkeit muss nicht am Stück ausgeübt worden sein, um zu zählen.",
+    "scale": "Number of days (0-7)",
+    "round": "11",
+    "source": "ESS"
+  },
+  {
+    "id": "ESS11_D11",
+    "question_id": "D11",
+    "item_type": "behavioral",
+    "source_en": "What is your height without shoes? 100 centimetres = ‘1 metre’ ‘00 cm’.",
+    "trans_de": "Wie groß sind Sie ohne Schuhe? 100 Zentimeter = '1 Meter' '00 cm'.",
+    "scale": "Number (in cm)",
+    "round": "11",
+    "source": "ESS"
+  },
+    {
+    "id": "ESS11_D32",
+    "question_id": "D32",
+    "item_type": "behavioral",
+    "source_en": "Please tell me how often there was serious conflict between the people living in your household when you were growing up?",
+    "trans_de": "Wie oft es in Ihrer Kindheit und Jugend zwischen den Personen bei Ihnen zu Hause ernsthafte Konflikte gegeben hat.",
+    "scale": "1-5(Always - Never)",
+    "round": "11",
+    "source": "ESS"
+  },
+    {
+    "id": "ESS11_D33",
+    "question_id": "D33",
+    "item_type": "behavioral",
+    "source_en": "Please tell me how often you and your family experienced severe financial difficulties when you were growing up?",
+    "trans_de": "wie oft Sie und Ihre Familie in Ihrer Kindheit und Jugend ernsthafte finanzielle Schwierigkeiten gehabt haben.",
+    "scale": "1-5(Always - Never)",
+    "round": "11",
+    "source": "ESS"
+  },
+  {
     "id": "ESS11_E1",
     "question_id": "E1",
     "item_type": "attitudinal",
     "source_en": "Which of the options on this card best describes you?",
     "trans_de": "Welche Bezeichnung auf Liste 5 trifft am besten auf Sie zu?",
     "scale": " A man/ A woman /Other (TYPE IN) / Prefer not to say",
+    "round": "11",
+    "source": "ESS"
+  },
+    {
+    "id": "ESS11_E2",
+    "question_id": "E2",
+    "item_type": "attitudinal",
+    "source_en": "I like to take risks. To what extent does this describe you?",
+    "trans_de": "Ich gehe gern Risiken ein. Inwieweit trifft das auf Sie zu?",
+    "scale": "0-6(Not at all - Completely)",
     "round": "11",
     "source": "ESS"
   },
