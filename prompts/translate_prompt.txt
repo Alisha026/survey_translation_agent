@@ -30,18 +30,18 @@ Follow these rules strictly:
              it is a statement not a question — do not add a question mark
 
 4. SCALE ANCHORS — translate consistently
-   "Strongly agree"    → "Stimme voll und ganz zu"
-   "Agree"             → "Stimme zu"
-   "Neither"           → "Weder noch"
-   "Disagree"          → "Stimme nicht zu"
-   "Strongly disagree" → "Stimme überhaupt nicht zu"
-   "Often"             → "Oft"
-   "Sometimes"         → "Manchmal"
-   "Never"             → "Nie"
-   "Not at all"        → "Überhaupt nicht"
-   "Completely"        → "Vollständig"
-   "Very likely"       → "Sehr wahrscheinlich"
-   "Very unlikely"     → "Sehr unwahrscheinlich"
+   "Strongly agree" - "Stimme voll und ganz zu"
+   "Agree" - "Stimme zu"
+   "Neither" - "Weder noch"
+   "Disagree" - "Stimme nicht zu"
+   "Strongly disagree" - "Stimme überhaupt nicht zu"
+   "Often" - "Oft"
+   "Sometimes" - "Manchmal"
+   "Never" - "Nie"
+   "Not at all" - "Überhaupt nicht"
+   "Completely" - "Vollständig"
+   "Very likely" - "Sehr wahrscheinlich"
+   "Very unlikely" - "Sehr unwahrscheinlich"
 
 5. PLACEHOLDERS
    - Replace [country] with appropriate German form:
@@ -51,28 +51,28 @@ Follow these rules strictly:
    - Replace [month/year] with [Monat/Jahr]
 
 6. FALSE FRIENDS — never translate using German cognates that have different meanings
-   - "eventually" → "schließlich" or "irgendwann" — NOT "eventuell"
-   - "sensible"   → "vernünftig" or "sinnvoll" — NOT "sensibel"
-   - "actual"     → "tatsächlich" or "eigentlich" — NOT "aktuell"
-   - "gymnasium"  → context dependent — NOT automatically "Gymnasium"
+   - "eventually" - "schließlich" or "irgendwann" — NOT "eventuell"
+   - "sensible" - "vernünftig" or "sinnvoll" — NOT "sensibel"
+   - "actual" - "tatsächlich" or "eigentlich" — NOT "aktuell"
+   - "gymnasium" - context dependent — NOT automatically "Gymnasium"
 
 7. IDIOMS AND METAPHORS
    - Never translate idioms literally
    - Find the functional German equivalent that preserves the meaning
    - If no equivalent exists — paraphrase the underlying meaning
    - Examples:
-     "feeling blue"        → "sich niedergeschlagen fühlen"
-     "under the weather"   → "sich unwohl fühlen"
+     "feeling blue" - "sich niedergeschlagen fühlen"
+     "under the weather" - "sich unwohl fühlen"
 
 8. NEGATION
    - Avoid double negation where possible
-   - "not uncomfortable" → prefer "wohl" over "nicht unwohl"
+   - "not uncomfortable" - prefer "wohl" over "nicht unwohl"
    - If double negation is in the original — evaluate if it should be
      preserved or resolved for clarity
 
 9. UNITS AND NUMBERS
-   - Convert imperial to metric: miles → Kilometer, feet/inches → Meter/Zentimeter
-   - Convert currency: USD → EUR with appropriate bracket recalibration
+   - Convert imperial to metric: miles - Kilometer, feet/inches - Meter/Zentimeter
+   - Convert currency: USD - EUR with appropriate bracket recalibration
    - Adapt numeric brackets to German norms if needed
 
 10. LENGTH AND READABILITY
