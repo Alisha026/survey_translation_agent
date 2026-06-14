@@ -6,6 +6,7 @@
     "source_en": "On a typical day, about how much time do you spend watching, reading or listening to news about politics and current affairs?",
     "trans_de": "Wie viel Zeit verbringen Sie ungefähr an einem gewöhnlichen Tag damit, Nachrichten zum politischen Geschehen anzuschauen, zu lesen oder zu hören?",
     "scale": " Duration (hours and minutes)",
+    "scale_de": "Dauer (Stunden und Minuten)",
     "round": "11",
     "source": "ESS"
   },
@@ -16,6 +17,7 @@
     "source_en": "People can use the internet on different devices such as computers, tablets and smartphones. How often do you use the internet on these or any other devices, whether for work or personal use?",
     "trans_de": "Man kann das Internet auf verschiedenen Geräten nutzen, wie beispielsweise Computer, Tablets und Smartphones. Wie oft nutzen Sie das Internet auf so einem oder einem anderen Gerät, sei es bei der Arbeit oder für private Zwecke?",
     "scale": "Never / Only occasionally / A few times a week / Most days / Every day",
+    "scale_de": "Nie / Nur ab und zu / Ein paarmal pro Woche / An den meisten Tagen / Jeden Tag",
     "round": "11",
     "source": "ESS"
   },
@@ -26,6 +28,7 @@
     "source_en": "Generally speaking, would you say that most people can be trusted, or that you can’t be too careful in dealing with people?",
     "trans_de": "Ganz allgemein gesprochen: Glauben Sie, dass man den meisten Menschen vertrauen kann, oder dass man im Umgang mit anderen Menschen nicht vorsichtig genug sein kann?",
     "scale": "0-10 (You can't be too careful - Most people can be trusted)",
+    "scale_de": "0-10(Man kann nicht vorsichtig genug sein - Den meisten Menschen kann mann vertrauen)",
     "round": "11",
     "source": "ESS"
   },
@@ -36,6 +39,7 @@
     "source_en": "Do you think that most people would try to take advantage of you if they got the chance, or would they try to be fair?",
     "trans_de": "Glauben Sie, dass die meisten Menschen versuchen, Sie auszunutzen, wenn sie die Gelegenheit dazu haben, oder versuchen die meisten Menschen, sich fair zu verhalten?",
     "scale": "0-10 (Most people would try to take advantage of me - Most people would try to be fair )",
+    "scale_de": "0-10 (Die meisten Menschen versuchen, mich auszunutzen - Die meisten Menschen versuchen, sich fair zu verhalten)",
     "round": "11",
     "source": "ESS"
   },
@@ -46,6 +50,7 @@
     "source_en": "Would you say that most of the time people try to be helpful or that they are mostly looking out for themselves?",
     "trans_de": "Und glauben Sie, dass die Menschen meistens versuchen, hilfsbereit zu sein, oder dass die Menschen meistens auf den eigenen Vorteil bedacht sind?",
     "scale": "0-10 (People mostly look out for themselves - People mostly try to be helpful)",
+    "scale_de": "0-10(Die Menschen sind meistens auf den eigenen Vorteil bedacht - Die Menschen versuchen, hilfsbereit zu sein)",
     "round": "11",
     "source": "ESS"
   },
@@ -56,6 +61,7 @@
     "source_en": "How able do you think you are to take an active role in a group involved with political issues?",
     "trans_de": "Wie fähig fühlen Sie sich, eine aktive Rolle in einer Gruppe zu übernehmen, die sich für politische Themen engagiert?",
     "scale": "1-5 (Not at all able - Completely able)",
+    "scale_de": "1-5 (Überhaupt nicht fähig - Voll und ganz fähig)",
     "round": "11",
     "source": "ESS"
   },
@@ -66,6 +72,7 @@
     "source_en": "How confident are you in your own ability to participate in politics?",
     "trans_de": "Wie sehr vertrauen Sie Ihren eigenen Fähigkeiten, sich am politischen Geschehen zu beteiligen?",
     "scale": "1-5 (Not at all confident - Completely confident)",
+    "scale_de": "1-5 (Vertraue meinen Fähigkeiten überhaupt nicht - Vertraue meinen Fähigkeiten voll und ganz)",
     "round": "11",
     "source": "ESS"
   },
@@ -76,6 +83,7 @@
     "source_en": "Some people don’t vote nowadays for one reason or another. Did you vote in the last [country] national election in [month/year]?",
     "trans_de": "Manche Menschen gehen heutzutage aus verschiedenen Gründen nicht zur Wahl. Wie ist das bei Ihnen?",
     "scale": "Yes / No / Not eligible to vote",
+    "scale_de": "Ja / Nein / Nicht wahlberechtigt",
     "round": "11",
     "source": "ESS"
   },
@@ -86,6 +94,7 @@
     "source_en": "Is there a particular political party you feel closer to than all the other parties?",
     "trans_de": "Gibt es eine politische Partei, der Sie näher stehen als allen anderen Parteien?",
     "scale": "Yes / No ",
+    "scale_de": "Ja / Nein",
     "round": "11",
     "source": "ESS"
   },
@@ -96,9 +105,9 @@
     "source_en": "How close do you feel to this party?",
     "trans_de": "Wie nahe stehen Sie dieser Partei?",
     "scale": "very close / quite close / not close / not at all close",
+    "scale_de": "Sehr nahe / Ziemlich nahe / nicht besonders nahe / Überhaupt nicht nahe",
     "round": "11",
     "source": "ESS"
-
   },
   {
     "id": "ESS11_B26",
@@ -107,6 +116,7 @@
     "source_en": "In politics people sometimes talk of “left” and “right”. Where would you place yourself on this scale, where 0 means the left and 10 means the right?",
     "trans_de": "In der Politik spricht man manchmal von „links“ und „rechts“. Wo auf der Skala würden Sie sich selbst einstufen, wenn 0 für links steht und 10 für rechts?",
     "scale": "0-10 (Left - Right)",
+    "scale_de": "0-10 (Links - Rechts)",
     "round": "11",
     "source": "ESS"
   },
@@ -117,6 +127,7 @@
     "source_en": "All things considered, how satisfied are you with your life as a whole nowadays?",
     "trans_de": "Wie zufrieden sind Sie - alles in allem - mit Ihrem gegenwärtigen Leben?",
     "scale": "0-10 (Extremely dissatisfied - Extremely satisfied)",
+    "scale_de": "0-10 (Äußerst unzufrieden - Äußerst zufrieden)",
     "round": "11",
     "source": "ESS"
   },
@@ -127,6 +138,7 @@
     "source_en": "On the whole how satisfied are you with the present state of the economy in [country]?",
     "trans_de": "WEITER Und wie zufrieden sind Sie - alles in allem - mit der gegenwärtigen Wirtschaftslage in Deutschland?",
     "scale": "0-10 (Extremely dissatisfied - Extremely satisfied)",
+    "scale_de": "0-10 (Äußerst unzufrieden - Äußerst zufrieden)",
     "round": "11",
     "source": "ESS"
   },
@@ -137,6 +149,7 @@
     "source_en": "Now thinking about the [country] government, how satisfied are you with the way it is doing its job?",
     "trans_de": "Wenn Sie nun einmal an die Leistungen der Bundesregierung in Berlin denken. Wie zufrieden sind Sie mit der Art und Weise, wie sie ihre Arbeit erledigt?",
     "scale": "0-10 (Extremely dissatisfied - Extremely satisfied)",
+    "scale_de": "0-10 (Äußerst unzufrieden - Äußerst zufrieden)",
     "round": "11",
     "source": "ESS"
   },
@@ -147,6 +160,7 @@
     "source_en": "And on the whole, how satisfied are you with the way democracy works in [country]?",
     "trans_de": "Und wie zufrieden sind Sie - alles in allem - mit der Art und Weise, wie die Demokratie in Deutschland funktioniert?",
     "scale": "0-10 (Extremely dissatisfied - Extremely satisfied)",
+    "scale_de": "0-10 (Äußerst unzufrieden - Äußerst zufrieden)",
     "round": "11",
     "source": "ESS"
   },
@@ -157,6 +171,7 @@
     "source_en": "Please say what you think overall about the state of education in [country] nowadays?",
     "trans_de": "Sagen Sie mir, wie Sie - alles in allem - den derzeitigen Zustand des Bildungssystems in Deutschland einschätzen. Äußerst (Antwort (Weiß schlecht Äußerst gut verweigert) nicht) 0 0 0 0 0 0 0 0 0 0 1 7 88",
     "scale": "0-10 (Extremely bad - Extremely good)",
+    "scale_de": "0-10 (Äußerst schlecht - Äußerst gut)",
     "round": "11",
     "source": "ESS"
   },
@@ -167,6 +182,7 @@
     "source_en": "Please say what you think overall about the state of health services in [country] nowadays?",
     "trans_de": "Sagen Sie mir, wie Sie - alles in allem - den derzeitigen Zustand des Gesundheitssystems in Deutschland einschätzen. Äußerst (Antwort (Weiß schlecht Äußerst gut verweigert) nicht) 0 0 0 0 0 0 0 0 0 0 1 7 8 1 Bitte schauen Sie jetzt auf Liste 1 und sagen Sie mir, wie sehr Sie jeder der folgenden Aussagen zustimmen oder wie sehr Sie diese ablehnen. BITTE JEDE AUSSAGE VORLESEN Stimme Stimme Weder Lehne (Antwort (Weiß stark zu zu noch Lehne ab stark ab verweigert) nicht)",
     "scale": "0-10 (Extremely bad - Extremely good)",
+    "scale_de": "0-10 (Äußerst schlecht - Äußerst gut)",
     "round": "11",
     "source": "ESS"
   },
@@ -177,6 +193,7 @@
     "source_en": "The government should take measures to reduce differences in income levels.",
     "trans_de": "Der Staat sollte Maßnahmen ergreifen, um Einkommens- unterschiede zu verringern.",
     "scale": "1-5 (Agree strongly - Disagree strongly)",
+    "scale_de": "1-5 (Stimme stark zu - Lehne stark ab)",
     "round": "11",
     "source": "ESS"
   },
@@ -187,6 +204,7 @@
     "source_en": "Gay men and lesbians should be free to live their own life as they wish.",
     "trans_de": "Schwule und Lesben sollten ihr Leben so führen dürfen, wie sie es wollen.",
     "scale": "1-5 (Agree strongly - Disagree strongly)",
+    "scale_de": "1-5 (Stimme stark zu - Lehne stark ab)",
     "round": "11",
     "source": "ESS"
   },
@@ -197,6 +215,7 @@
     "source_en": "If a close family member was a gay man or a lesbian, I would feel ashamed.",
     "trans_de": "Wenn ein nahes Familienmit- glied schwul oder lesbisch wäre, würde ich mich schämen.",
     "scale": "1-5 (Agree strongly - Disagree strongly)",
+    "scale_de": "1-5 (Stimme stark zu - Lehne stark ab)",
     "round": "11",
     "source": "ESS"
   },
@@ -207,6 +226,7 @@
     "source_en": "Gay male and lesbian couples should have the same rights to adopt children as straight couples.",
     "trans_de": "Schwule und lesbische Paare sollten die gleichen Rechte haben, Kinder zu adoptieren, wie Paare, die aus Mann und Frau bestehen.",
     "scale": "1-5 (Agree strongly - Disagree strongly)",
+    "scale_de": "1-5 (Stimme stark zu - Lehne stark ab)",
     "round": "11",
     "source": "ESS"
   },
@@ -217,6 +237,7 @@
     "source_en": "Now thinking about the European Union, some say European unification should go further. Others say it has already gone too far. Using this card, what number on the scale best describes your position?",
     "trans_de": "Jetzt kommen wir zum Thema Europäische Union. Manche Leute sagen, dass die europäische Einigung weiter gehen soll. Andere sagen, dass sie schon jetzt zu weit gegangen ist. Welche Zahl der Skala auf Liste 1 beschreibt Ihre Einschätzung am besten?",
     "scale": "0-10 (Unification has already gone too far - Unification should go further)",
+    "scale_de": "0-10 (Einigung ist schon zu weit gegangen - Einigung sollte weitergehen)",
     "round": "11",
     "source": "ESS"
   },
@@ -227,6 +248,7 @@
     "source_en": "Obedience and respect for authority are the most important values children should learn.",
     "trans_de": "Gehorsam und Respekt vor Autorität sind die wichtigsten Werte, die Kinder lernen sollten.",
     "scale": "1-5 (Agree strongly - Disagree strongly)",
+    "scale_de": "1-5 (Stimme stark zu - Lehne stark ab)",
     "round": "11",
     "source": "ESS"
   },
@@ -237,6 +259,7 @@
     "source_en": "What [country] needs most is loyalty towards its leaders.",
     "trans_de": "Was Deutschland am meisten braucht, ist Loyalität gegenüber der politischen Führung.",
     "scale": "1-5 (Agree strongly - Disagree strongly)",
+    "scale_de": "1-5 (Stimme stark zu - Lehne stark ab)",
     "round": "11",
     "source": "ESS"
   },
@@ -247,6 +270,7 @@
     "source_en": "To what extent do you think [country] should allow people of the same race or ethnic group as most [country]’s people to come and live here?",
     "trans_de": "Zunächst geht es um die Zuwanderer, die derselben Volksgruppe oder ethnischen Gruppe angehören wie die Mehrheit der Deutschen. Wie vielen von ihnen sollte Deutschland erlauben, hier zu leben?",
     "scale": "1-4(Allow many to come and live here - Allow none)",
+    "scale_de": "1-4(vielen erlauben, herzukommen und hier zu leben - oder niemandem erlauben)",
     "round": "11",
     "source": "ESS"
   },
@@ -257,6 +281,7 @@
     "source_en": "How about people of a different race or ethnic group from most [country] people?",
     "trans_de": "Wie ist das mit Zuwanderern, die einer anderen Volksgruppe oder ethnischen Gruppe angehören als die Mehrheit der Deutschen?",
     "scale": "1-4(Allow many to come and live here - Allow none)",
+    "scale_de": "1-4(vielen erlauben, herzukommen und hier zu leben - oder niemandem erlauben)",
     "round": "11",
     "source": "ESS"
   },
@@ -267,6 +292,7 @@
     "source_en": "How about people from the poorer countries outside Europe?",
     "trans_de": "Und wie ist das mit Zuwanderern, die aus den ärmeren Ländern außerhalb Europas kommen?",
     "scale": "1-4(Allow many to come and live here - Allow none)",
+    "scale_de": "1-4(vielen erlauben, herzukommen und hier zu leben - oder niemandem erlauben)",
     "round": "11",
     "source": "ESS"
   },
@@ -277,6 +303,7 @@
     "source_en": "Would you say it is generally bad or good for [country]’s economy that people come to live here from other countries?",
     "trans_de": "Was würden Sie sagen, ist es im Allgemeinen gut oder schlecht für die deutsche Wirtschaft, dass Zuwanderer hierher kommen?",
     "scale": "1-10 (Bad for the economy - Good for the economy)",
+    "scale_de": "1-10 (Schlecht für die Wirtschaft - Gut für die Wirtschaft)",
     "round": "11",
     "source": "ESS"
   },
@@ -287,6 +314,7 @@
     "source_en": "Would you say that [country]’s cultural life is generally undermined or enriched by people coming to live here from other countries?",
     "trans_de": "Würden Sie sagen, dass das kulturelle Leben in Deutschland im Allgemeinen durch Zuwanderer untergraben oder bereichert wird?",
     "scale": "1-10(Cultural life undermined - Cultural life enriched)",
+    "scale_de": "1-10(Kulturelles Leben wird untergraben - Kulturelles Leben wird bereichert)",
     "round": "11",
     "source": "ESS"
   },
@@ -297,6 +325,7 @@
     "source_en": "Is [country] made a worse or a better place to live by people coming to live here from other countries?",
     "trans_de": "Wird Deutschland durch Zuwanderer zu einem schlechteren oder besseren Ort zum Leben?",
     "scale": "0-10(Worse place to live - Better place to live)",
+    "scale_de": "0-10(Wird zu einem schlechteren Ort zum Leben - Wird zu einem besseren Ort zum Leben)",
     "round": "11",
     "source": "ESS"
   },
@@ -307,6 +336,7 @@
     "source_en": "Taking all things together, how happy would you say you are?",
     "trans_de": "Alles in allem betrachtet, was würden Sie sagen, wie glücklich sind Sie?",
     "scale": "0-10(Extremely unhappy - Extremely happy)",
+    "scale_de": "0-10(Äußerst unglücklich - Äußerst glücklich)",
     "round": "11",
     "source": "ESS"
   },
@@ -317,6 +347,7 @@
     "source_en": "How often do you meet socially with friends, relatives or work colleagues?",
     "trans_de": "Wie oft treffen Sie sich mit Freunden, Verwandten oder privat mit Arbeitskollegen?",
     "scale": "1-7(Never - Every day)",
+    "scale_de": "1-7(Nie - Täglich)",
     "round": "11",
     "source": "ESS"
   },
@@ -327,6 +358,7 @@
     "source_en": "How many people, if any, are there with whom you can discuss intimate and personal matters?",
     "trans_de": "Wie viele Menschen haben Sie, mit denen Sie über vertrauliche und persönliche Angelegenheiten reden können?",
     "scale": "0-6(None - 10 or more)",
+    "scale_de": "0-6(Keinen - 10 oder mehr)",
     "round": "11",
     "source": "ESS"
   },
@@ -337,6 +369,7 @@
     "source_en": "Compared to other people of your age, how often would you say you take part in social activities?",
     "trans_de": "Wenn Sie sich mit Gleichaltrigen vergleichen, wie oft nehmen Sie an geselligen Ereignissen oder Treffen teil?",
     "scale": "1-5(Much less than most - Much more than most)",
+    "scale_de": "1-5(Viel seltener als die meisten - Viel häufiger als die meisten)",
     "round": "11",
     "source": "ESS"
   },
@@ -347,6 +380,7 @@
     "source_en": "Have you or a member of your household been the victim of a burglary or assault in the last 5 years?",
     "trans_de": "Sind Sie oder ein Mitglied Ihres Haushalts in den letzten fünf Jahren Opfer eines Einbruchs oder Überfalls geworden?",
     "scale": "Yes / No",
+    "scale_de": "Ja / Nein",
     "round": "11",
     "source": "ESS"
   },
@@ -357,6 +391,7 @@
     "source_en": "How safe do you – or would you – feel walking alone in the area you live after dark? Do – or would – you feel ...",
     "trans_de": "Wie sicher fühlen Sie sich – oder würden Sie sich fühlen – wenn Sie nach Einbruch der Dunkelheit alleine zu Fuß in Ihrer Wohngegend unterwegs sind oder wären? Fühlen Sie sich – oder würden Sie sich fühlen ...",
     "scale": "1-4(very safe - very unsafe)",
+    "scale_de": "1-4(sehr sicher - sehr unsicher)",
     "round": "11",
     "source": "ESS"
   },
@@ -367,6 +402,7 @@
     "source_en": "How is your health in general?",
     "trans_de": "Wie schätzen Sie - alles in allem - Ihren Gesundheitszustand ein?",
     "scale": "1-5(very good - very bad)",
+    "scale_de": "1-5(sehr gut - sehr schlecht)",
     "round": "11",
     "source": "ESS"
   },
@@ -377,6 +413,7 @@
     "source_en": "Are you hampered in your daily activities in any way by any longstanding illness, or disability, infirmity or mental health problem? IF YES, is that a lot or to some extent?",
     "trans_de": "Werden Sie bei Ihren täglichen Aktivitäten in irgendeiner Weise von einer längeren Krankheit oder einer Behinderung, einem Gebrechen oder einer seelischen Krankheit beeinträchtigt? WENN JA , gilt das stark oder nur bis zu einem gewissen Grad?",
     "scale": "Yes a lot / Yes to some extent / No",
+    "scale_de": "Ja, stark / Ja, bis zu einem gewissen Grad / Nein",
     "round": "11",
     "source": "ESS"
   },
@@ -387,6 +424,7 @@
     "source_en": "How emotionally attached do you feel to [country]?",
     "trans_de": "Wie stark fühlen Sie sich Deutschland gefühlsmäßig verbunden?",
     "scale": "0-10(Not at all emotionally attached - Very emotionally attached)",
+    "scale_de": "0-10(Gefühlsmäßig überhaupt nicht verbunden - Gefühlsmäßig sehr verbunden)",
     "round": "11",
     "source": "ESS"
   },
@@ -397,6 +435,7 @@
     "source_en": "And how emotionally attached do you feel to Europe?",
     "trans_de": "Wie stark fühlen Sie sich Europa gefühlsmäßig verbunden?",
     "scale": "0-10(Not at all emotionally attached - Very emotionally attached)",
+    "scale_de": "0-10(Gefühlsmäßig überhaupt nicht verbunden - Gefühlsmäßig sehr verbunden)",
     "round": "11",
     "source": "ESS"
   },
@@ -407,6 +446,7 @@
     "source_en": "Do you consider yourself as belonging to any particular religion or denomination?",
     "trans_de": "Unabhängig davon, ob Sie Mitglied oder Angehöriger einer Kirche oder Religionsgemeinschaft sind, fühlen Sie sich einer bestimmten Religion oder Konfession zugehörig?",
     "scale": "Yes / No",
+    "scale_de": "Ja / Nein",
     "round": "11",
     "source": "ESS"
   },
@@ -417,6 +457,7 @@
     "source_en": "Have you ever considered yourself as belonging to any particular religion or denomination?",
     "trans_de": "Haben Sie sich früher einmal einer Religion oder Konfession zugehörig gefühlt?",
     "scale": "Yes / No",
+    "scale_de": "Ja / Nein",
     "round": "11",
     "source": "ESS"
   },
@@ -427,6 +468,7 @@
     "source_en": "Regardless of whether you belong to a particular religion, how religious would you say you are?",
     "trans_de": "Unabhängig davon, ob Sie sich einer bestimmten Religion zugehörig fühlen, für wie religiös würden Sie sich selber halten?",
     "scale": "0-10(Not at all religious - Very religious)",
+    "scale_de": "0-10(Überhaupt nicht religiös - Sehr religiös)",
     "round": "11",
     "source": "ESS"
   },
@@ -437,6 +479,7 @@
     "source_en": "Apart from special occasions such as weddings and funerals, about how often do you attend religious services nowadays?",
     "trans_de": "Abgesehen von besonderen Anlässen wie Hochzeiten und Beerdigungen, wie oft gehen Sie derzeit zum Gottesdienst?",
     "scale": "1-7(Every day - Never)",
+    "scale_de": "1-7(Täglich - Nie)",
     "round": "11",
     "source": "ESS"
   },
@@ -447,6 +490,7 @@
     "source_en": "Apart from when you are at religious services, how often, if at all, do you pray?",
     "trans_de": "Abgesehen von Gottesdiensten, wie oft beten Sie – wenn überhaupt?",
     "scale": "1-7(Every day - Never)",
+    "scale_de": "1-7(Täglich - Nie)",
     "round": "11",
     "source": "ESS"
   },
@@ -457,6 +501,7 @@
     "source_en": "Would you describe yourself as being a member of a group that is discriminated against in this country?",
     "trans_de": "Würden Sie sich selbst als Angehörige(n) einer Bevölkerungsgruppe bezeichnen, die in Deutschland diskriminiert wird?",
     "scale": "Yes / No",
+    "scale_de": "Ja / Nein",
     "round": "11",
     "source": "ESS"
   },
@@ -467,6 +512,7 @@
     "source_en": "Are you a citizen of [country]?",
     "trans_de": "Sind Sie deutsche(r) Staatsbürger(in)?",
     "scale": "Yes / No ",
+    "scale_de": "Ja / Nein",
     "round": "11",
     "source": "ESS"
   },
@@ -477,6 +523,7 @@
     "source_en": "Were you born in [country]?",
     "trans_de": "Sind Sie in Deutschland geboren?",
     "scale": "Yes / No ",
+    "scale_de": "Ja / Nein",
     "round": "11",
     "source": "ESS"
   },
@@ -487,6 +534,7 @@
     "source_en": "What language or languages do you speak most often at home?",
     "trans_de": "Welche Sprache oder Sprachen sprechen Sie zu Hause (hier in Deutschland) am häufigsten?",
     "scale": "Open ended (up to 2 languages)",
+    "scale_de": "Offene Antwort (bis zu 2 Sprachen)",
     "round": "11",
     "source": "ESS"
   },
@@ -497,6 +545,7 @@
     "source_en": "Do you feel you are part of the same race or ethnic group as most people in [country]?",
     "trans_de": "Fühlen Sie sich als Teil derselben Volksgruppe oder ethnischen Gruppe wie die meisten Menschen in Deutschland?",
     "scale": "Yes / No ",
+    "scale_de": "Ja / Nein",
     "round": "11",
     "source": "ESS"
   },
@@ -507,6 +556,7 @@
     "source_en": "Was your father born in [country]?",
     "trans_de": "Ist Ihr Vater in Deutschland geboren?",
     "scale": "Yes / No ",
+    "scale_de": "Ja / Nein",
     "round": "11",
     "source": "ESS"
   },
@@ -517,6 +567,7 @@
     "source_en": "Was your mother born in [country]?",
     "trans_de": "Ist Ihre Mutter in Deutschland geboren?",
     "scale": "Yes / No ",
+    "scale_de": "Ja / Nein",
     "round": "11",
     "source": "ESS"
   },
@@ -527,6 +578,7 @@
     "source_en": "Do you think that climate change is caused by natural processes, human activity, or both?",
     "trans_de": "Denken Sie, dass der Klimawandel durch natürliche Prozesse, durch menschliches Handeln oder durch beides verursacht wird?",
     "scale": "1-5(Entirely by natural processes - Entirely by human activity)",
+    "scale_de": "1-5(Nur durch natürliche Prozesse - Nur durch menschliches Handeln)",
     "round": "11",
     "source": "ESS"
   },
@@ -537,6 +589,7 @@
     "source_en": "To what extent do you feel a personal responsibility to try to reduce climate change?",
     "trans_de": "Wie sehr fühlen Sie sich persönlich verantwortlich, einen Beitrag zu leisten, damit der Klimawandel reduziert wird?",
     "scale": "1-10(Not at all- A great deal)",
+    "scale_de": "1-10(Überhaupt nicht - Sehr stark)",
     "round": "11",
     "source": "ESS"
   },
@@ -547,26 +600,29 @@
     "source_en": "How worried are you about climate change?",
     "trans_de": "Wie besorgt sind Sie über den Klimawandel?",
     "scale": "1-5(Not at all worried - Extremely worried)",
+    "scale_de": "1-5(Überhaupt nicht besorgt - Äußerst besorgt)",
     "round": "11",
     "source": "ESS"
   },
-   {
+  {
     "id": "ESS11_D1",
     "question_id": "D1",
     "item_type": "behavioral",
     "source_en": "How much control do you feel you have over your life in general nowadays?",
     "trans_de": "Wie viel Kontrolle haben Sie Ihrem Gefühl nach heutzutage über Ihr Leben im Allgemeinen?",
     "scale": "1-10(No control at all - Complete control)",
+    "scale_de": "1-10(Überhaupt keine Kontrolle - Vollständige Kontrolle)",
     "round": "11",
     "source": "ESS"
   },
-   {
+  {
     "id": "ESS11_D2",
     "question_id": "D2",
     "item_type": "behavioral",
     "source_en": "Please tell me how often you eat fruit, excluding drinking juice? Frozen fruit should be included.",
     "trans_de": "Wie häufig Sie Obst essen - Fruchtsäfte zählen nicht. Tiefgefrorene Früchte sollten mitgezählt werden.",
     "scale": "1-7(Three times or more a day - Never)",
+    "scale_de": "1-7(Dreimal pro Tag oder öfter - Nie)",
     "round": "11",
     "source": "ESS"
   },
@@ -577,6 +633,7 @@
     "source_en": "Please tell me how often you eat vegetables or salad, excluding potatoes? Frozen vegetables should be included.",
     "trans_de": "wie häufig Sie Gemüse oder Salat essen - Kartoffeln zählen nicht. Tiefgefrorenes Gemüse sollte mitgezählt werden.",
     "scale": "1-7(Three times or more a day - Never)",
+    "scale_de": "1-7(Dreimal pro Tag oder öfter - Nie)",
     "round": "11",
     "source": "ESS"
   },
@@ -587,6 +644,7 @@
     "source_en": "On how many of the last 7 days did you walk quickly59, do sports or other physical activity for 30 minutes or longer? To be included, physical activity does not have to have been continuous.",
     "trans_de": "An wie vielen der letzten 7 Tage sind Sie 30 Minuten oder länger entweder schnell zu Fuß gegangen oder haben sich sportlich oder auf eine andere Art körperlich betätigt? Die körperliche Tätigkeit muss nicht am Stück ausgeübt worden sein, um zu zählen.",
     "scale": "Number of days (0-7)",
+    "scale_de": "Anzahl der Tage (0-7)",
     "round": "11",
     "source": "ESS"
   },
@@ -597,26 +655,29 @@
     "source_en": "What is your height without shoes? 100 centimetres = ‘1 metre’ ‘00 cm’.",
     "trans_de": "Wie groß sind Sie ohne Schuhe? 100 Zentimeter = '1 Meter' '00 cm'.",
     "scale": "Number (in cm)",
+    "scale_de": "Zahl (in cm)",
     "round": "11",
     "source": "ESS"
   },
-    {
+  {
     "id": "ESS11_D32",
     "question_id": "D32",
     "item_type": "behavioral",
     "source_en": "Please tell me how often there was serious conflict between the people living in your household when you were growing up?",
     "trans_de": "Wie oft es in Ihrer Kindheit und Jugend zwischen den Personen bei Ihnen zu Hause ernsthafte Konflikte gegeben hat.",
     "scale": "1-5(Always - Never)",
+    "scale_de": "1-5(Immer - Nie)",
     "round": "11",
     "source": "ESS"
   },
-    {
+  {
     "id": "ESS11_D33",
     "question_id": "D33",
     "item_type": "behavioral",
     "source_en": "Please tell me how often you and your family experienced severe financial difficulties when you were growing up?",
     "trans_de": "wie oft Sie und Ihre Familie in Ihrer Kindheit und Jugend ernsthafte finanzielle Schwierigkeiten gehabt haben.",
     "scale": "1-5(Always - Never)",
+    "scale_de": "1-5(Immer - Nie)",
     "round": "11",
     "source": "ESS"
   },
@@ -627,16 +688,18 @@
     "source_en": "Which of the options on this card best describes you?",
     "trans_de": "Welche Bezeichnung auf Liste 5 trifft am besten auf Sie zu?",
     "scale": " A man/ A woman /Other (TYPE IN) / Prefer not to say",
+    "scale_de": "Mann / Frau / Andere Bezeichnung (EINTRAGEN)",
     "round": "11",
     "source": "ESS"
   },
-    {
+  {
     "id": "ESS11_E2",
     "question_id": "E2",
     "item_type": "attitudinal",
     "source_en": "I like to take risks. To what extent does this describe you?",
     "trans_de": "Ich gehe gern Risiken ein. Inwieweit trifft das auf Sie zu?",
     "scale": "0-6(Not at all - Completely)",
+    "scale_de": "0-6(Überhaupt nicht - Voll und ganz)",
     "round": "11",
     "source": "ESS"
   },
@@ -647,6 +710,7 @@
     "source_en": "Overall, how masculine would you say you feel?",
     "trans_de": "Was würden Sie sagen, wie männlich fühlen Sie sich insgesamt?",
     "scale": "0-6(Not at all masculine - Very masculine)",
+    "scale_de": "0-6(Überhaupt nicht männlich - Sehr männlich)",
     "round": "11",
     "source": "ESS"
   },
@@ -657,6 +721,7 @@
     "source_en": "Overall, how feminine would you say you feel?",
     "trans_de": "Was würden Sie sagen, wie weiblich fühlen Sie sich insgesamt?",
     "scale": "0-6(Not at all feminine - Very feminine)",
+    "scale_de": "0-6(Überhaupt nicht weiblich - Sehr weiblich)",
     "round": "11",
     "source": "ESS"
   },
@@ -667,6 +732,7 @@
     "source_en": "Now think generally about how things are currently in [country]. Based on your impression, for the next two situations, would you say that women and men are treated equally fairly or not? First, when seeking medical treatment?",
     "trans_de": "Denken Sie nun allgemein an die aktuelle Lage in Deutschland. Haben Sie den Eindruck, dass in den folgenden beiden Situationen Frauen und Männer gleichermaßen gerecht behandelt werden oder nicht? Zunächst, beim Versuch, eine medizinische Behandlung zu bekommen?",
     "scale": "Women are treated less fairly than men / Men are treated less fairly than women / Women and men are treated equally fairly",
+    "scale_de": "Frauen werden weniger gerecht behandelt als Männer / Männer werden weniger gerecht behandelt als Frauen / Frauen und Männer werden gleichermaßen gerecht behandelt",
     "round": "11",
     "source": "ESS"
   },
@@ -677,6 +743,7 @@
     "source_en": "Now think generally about how things are currently in [country]. Based on your impression, for the next two situations, would you say that women and men are treated equally fairly or not? what about in hiring, pay or promotions at work?",
     "trans_de": "Denken Sie nun allgemein an die aktuelle Lage in Deutschland. Haben Sie den Eindruck, dass in den folgenden beiden Situationen Frauen und Männer gleichermaßen gerecht behandelt werden oder nicht? Wie sieht es im Berufsleben beim Einstellungsverfahren, bei der Bezahlung oder Beförderung aus?",
     "scale": "Women are treated less fairly than men / Men are treated less fairly than women / Women and men are treated equally fairly",
+    "scale_de": "Frauen werden weniger gerecht behandelt als Männer / Männer werden weniger gerecht behandelt als Frauen / Frauen und Männer werden gleichermaßen gerecht behandelt",
     "round": "11",
     "source": "ESS"
   },
@@ -687,6 +754,7 @@
     "source_en": "Generally speaking, would you say that the police in [country] treat women less fairly than men, treat men less fairly than women, or do they treat women and men equally fairly?",
     "trans_de": "Würden Sie im Allgemeinen sagen, dass die Polizei in Deutschland Frauen weniger gerecht behandelt als Männer, Männer weniger gerecht behandelt als Frauen oder Frauen und Männer gleichermaßen gerecht behandelt?",
     "scale": "The police treat women less fairly than men / The police treat men less fairly than women / Women and men are treated equally fairly",
+    "scale_de": "Die Polizei behandelt Frauen weniger gerecht als Männer / Die Polizei behandelt Männer weniger gerecht als Frauen / Frauen und Männer werden gleichermaßen gerecht behandelt",
     "round": "11",
     "source": "ESS"
   },
@@ -697,6 +765,7 @@
     "source_en": "In general, how bad or good is it for family life in [country] if equal numbers of women and men are in paid work?",
     "trans_de": "Wie schlecht oder gut ist es allgemein für das Familienleben in Deutschland, wenn gleich viele Frauen und Männer eine bezahlte Arbeit haben?",
     "scale": "0-6(Very bad for family life in [country] - Very good for family life in [country])",
+    "scale_de": "0-6(Sehr schlecht für das Familienleben in Deutschland - Sehr gut für das Familienleben in Deutschland)",
     "round": "11",
     "source": "ESS"
   },
@@ -707,6 +776,7 @@
     "source_en": "In general, how bad or good is it for politics in [country] if equal numbers of women and men are in positions of political leadership?",
     "trans_de": "Wie schlecht oder gut ist es allgemein für die Politik in Deutschland, wenn gleich viele Frauen und Männer in politischen Führungspositionen sind?",
     "scale": "0-6(Very bad for politics in [country] - Very good for politics in [country])",
+    "scale_de": "0-6(Sehr schlecht für die Politik in Deutschland - Sehr gut für die Politik in Deutschland)",
     "round": "11",
     "source": "ESS"
   },
@@ -717,6 +787,7 @@
     "source_en": "In general, how bad or good is it for businesses in [country] if equal numbers of women and men are in higher management positions?",
     "trans_de": "Wie schlecht oder gut ist es allgemein für Unternehmen in Deutschland, wenn gleich viele Frauen und Männer in höheren Führungspositionen sind?",
     "scale": "0-6(Very bad for businesses in [country] - Very good for businesses in [country])",
+    "scale_de": "0-6(Sehr schlecht für Unternehmen in Deutschland - Sehr gut für Unternehmen in Deutschland)",
     "round": "11",
     "source": "ESS"
   },
@@ -727,6 +798,7 @@
     "source_en": "In general, how bad or good is it for the strength of the economy in [country] if women and men receive equal pay for doing the same work?",
     "trans_de": "Wie schlecht oder gut ist es allgemein für die Stärke der Wirtschaft in Deutschland, wenn Frauen und Männern für die gleiche Arbeit gleich viel bezahlt wird.",
     "scale": "0-6(Very bad for the strength of the economy in [country] - Very good for the strength of the economy in [country])",
+    "scale_de": "0-6(Sehr schlecht für die Stärke der Wirtschaft in Deutschland - Sehr gut für die Stärke der Wirtschaft in Deutschland)",
     "round": "11",
     "source": "ESS"
   },
@@ -737,6 +809,7 @@
     "source_en": "To what extent are you in favour or against a legal measure that requires dividing the number of seats in Parliament equally between women and men?",
     "trans_de": "Inwieweit sind Sie für oder gegen ein Gesetz, welches eine gleiche Verteilung der Sitze im Bundestag zwischen Frauen und Männern vorschreibt?",
     "scale": "1-5 (Agree strongly - Disagree strongly)",
+    "scale_de": "1-5 (Stimme stark zu - Lehne stark ab)",
     "round": "11",
     "source": "ESS"
   },
@@ -747,6 +820,7 @@
     "source_en": "Imagine a couple who both work full-time and earn roughly the same amount, and now have a newborn child. Both are eligible for paid leave if they stop working for some time to care for their child. To what extent are you in favour or against a legal measure that requires both parents to take equal periods of paid leave to care for their child?",
     "trans_de": "Stellen Sie sich ein Paar vor, bei dem beide Vollzeit arbeiten und ungefähr gleich viel verdienen. Jetzt haben sie ein neugeborenes Kind. Beide haben Anspruch auf bezahlte Elternzeit, wenn sie eine Zeitlang nicht arbeiten, um sich um ihr Kind zu kümmern. Inwieweit sind Sie für oder gegen ein Gesetz, welches beiden Elternteilen vorschreibt , gleich lange bezahlte Elternzeit zu nehmen, um ihr Kind zu betreuen?",
     "scale": "1-5 (Strongly in favour - Strongly against)",
+    "scale_de": "1-5 (Sehr dafür - Sehr dagegen)",
     "round": "11",
     "source": "ESS"
   },
@@ -757,6 +831,7 @@
     "source_en": "To what extent are you in favour or against firing employees who make insulting comments to women in the workplace?",
     "trans_de": "Inwieweit sind Sie dafür oder dagegen, dass Mitarbeitenden gekündigt wird, die bei der Arbeit Frauen gegenüber beleidigende Bemerkungen machen?",
     "scale": "1-5 (Strongly in favour - Strongly against)",
+    "scale_de": "1-5 (Sehr dafür - Sehr dagegen)",
     "round": "11",
     "source": "ESS"
   },
@@ -767,6 +842,7 @@
     "source_en": "To what extent are you in favour or against making businesses pay a fine1 when they pay men more than women for doing the same work?",
     "trans_de": "Inwieweit sind Sie dafür oder dagegen, dass Unternehmen eine Geldstrafe zahlen müssen, wenn sie Männer für die gleiche Arbeit besser bezahlen als Frauen?",
     "scale": "1-5 (Strongly in favour - Strongly against)",
+    "scale_de": "1-5 (Sehr dafür - Sehr dagegen)",
     "round": "11",
     "source": "ESS"
   },
@@ -777,6 +853,7 @@
     "source_en": "In your opinion, how often do women seek to gain power by getting control over men?",
     "trans_de": "Was meinen Sie, wie oft versuchen Frauen Macht zu erlangen, indem sie Männer manipulieren?",
     "scale": "1-5 (Never - Always)",
+    "scale_de": "1-5 (Nie - Immer)",
     "round": "11",
     "source": "ESS"
   },
@@ -787,6 +864,7 @@
     "source_en": "In your opinion, how often do women get easily offended?",
     "trans_de": "Was meinen Sie, wie oft fühlen sich Frauen schnell beleidigt?",
     "scale": "1-5 (Never - Always)",
+    "scale_de": "1-5 (Nie - Immer)",
     "round": "11",
     "source": "ESS"
   },
@@ -797,6 +875,7 @@
     "source_en": "In your opinion, how often are women paid less than men for the same work in [country]?",
     "trans_de": "Was meinen Sie, wie oft werden Frauen in Deutschland für die gleiche Arbeit schlechter bezahlt als Männer?",
     "scale": "1-5 (Never - Always)",
+    "scale_de": "1-5 (Nie - Immer)",
     "round": "11",
     "source": "ESS"
   },
@@ -807,6 +886,7 @@
     "source_en": "In your opinion, how often do women exaggerate claims of sexual harassment in the workplace?",
     "trans_de": "Was meinen Sie, wie oft übertreiben Frauen, wenn Sie sich über sexuelle Belästigung am Arbeitsplatz beschweren?",
     "scale": "1-5 (Never - Always)",
+    "scale_de": "1-5 (Nie - Immer)",
     "round": "11",
     "source": "ESS"
   },
@@ -817,6 +897,7 @@
     "source_en": "How much do you agree or disagree that women should be protected by men?",
     "trans_de": "Inwieweit stimmen Sie zu oder lehnen Sie ab, dass Frauen von Männern beschützt werden sollen?",
     "scale": "1-5 (Agree strongly- Disagree strongly)",
+    "scale_de": "1-5 (Stimme stark zu- Lehne stark ab)",
     "round": "11",
     "source": "ESS"
   },
@@ -827,6 +908,7 @@
     "source_en": "How much do you agree or disagree that women tend to have a better sense of what is right and wrong compared with men?",
     "trans_de": "Inwieweit stimmen Sie zu oder lehnen Sie ab, dass Frauen im Vergleich zu Männern ein besseres Gespür dafür haben, was richtig und was falsch ist?",
     "scale": "1-5 (Agree strongly- Disagree strongly)",
+    "scale_de": "1-5 (Stimme stark zu- Lehne stark ab)",
     "round": "11",
     "source": "ESS"
   },
@@ -837,6 +919,7 @@
     "source_en": "Including yourself, how many people – including children – live here regularly as members of this household?",
     "trans_de": "Wie viele Personen leben ständig in diesem Haushalt, Sie selbst eingeschlossen?",
     "scale": "Numeric Count",
+    "scale_de": "Numerische Anzahl",
     "round": "11",
     "source": "ESS"
   },
@@ -847,6 +930,7 @@
     "source_en": "And in what year {were you/ was he/she} born?",
     "trans_de": "Sagen Sie mir bitte, in welchem Jahr Sie geboren sind?",
     "scale": " Numeric Year",
+    "scale_de": "Numerisches Jahr",
     "round": "11",
     "source": "ESS"
   },
@@ -857,6 +941,7 @@
     "source_en": "And can I just check have you ever lived with a partner, without being married to them ?",
     "trans_de": "Darf ich noch einmal nachfragen: Haben Sie jemals mit einem Partner/einer Partnerin zusammengelebt, ohne mit ihm/ihr verheiratet zu sein ?",
     "scale": "Yes / No ",
+    "scale_de": "Ja / Nein",
     "round": "11",
     "source": "ESS"
   },
@@ -867,6 +952,7 @@
     "source_en": "Can I just check have you ever been divorced or had a civil union1 dissolved?",
     "trans_de": "Darf ich noch einmal nachfragen: Sind Sie jemals geschieden worden oder wurde Ihre eingetragene Lebenspartnerschaft aufgehoben?",
     "scale": "Yes / No ",
+    "scale_de": "Ja / Nein",
     "round": "11",
     "source": "ESS"
   },
@@ -877,6 +963,7 @@
     "source_en": "This question is about your legal marital status not about who you may or may not be living with. Which one of the descriptions on this card describes your legal marital status now?",
     "trans_de": "In dieser Frage geht es um Ihren rechtlichen Familienstand und nicht darum, mit wem Sie zusammenleben oder nicht. Welche Beschreibung auf Liste 7 trifft auf Ihren gegenwärtigen rechtlichen Familienstand zu?",
     "scale": "Legally married / In a legally registered civil union / Legally separated / Widowed / None of these (Never married)",
+    "scale_de": "Verheiratet / In einer eingetragenen Lebenspartnerschaft / Getrennt lebend / Verwitwet / Nichts davon (Noch nie verheiratet)",
     "source": "ESS"
   },
   {
@@ -886,6 +973,7 @@
     "source_en": "Have you ever had any children of your own, step-children, adopted children, foster children or a partner’s children living in your household?",
     "trans_de": "Haben Sie jemals mit eigenen oder adoptierten Kindern, Stiefkindern, Pflegekindern oder Kindern eines Partners/einer Partnerin in Ihrem Haushalt zusammengelebt?",
     "scale": "Yes / No ",
+    "scale_de": "Ja / Nein",
     "round": "11",
     "source": "ESS"
   },
@@ -896,6 +984,7 @@
     "source_en": "About how many years of education have you completed, whether full-time or part-time? Please report these in full-time equivalents and include compulsory years of schooling.",
     "trans_de": "Wie viele Jahre haben Sie insgesamt eine Schule besucht, inklusive des etwaigen Besuchs einer Berufsschule oder Hochschule? Berücksichtigen Sie bitte alle Voll-und Teilzeitausbildungen, und rechnen Sie die Gesamtdauer Ihrer Schul- bzw. Ausbildungszeit in ganze Jahre um",
     "scale": " Numeric (Year)",
+    "scale_de": "Numerisch (Jahr)",
     "round": "11",
     "source": "ESS"
   },
@@ -906,6 +995,7 @@
     "source_en": "which of these descriptions best describes your situation (in the last seven days)?",
     "trans_de": "Was davon trifft am besten auf Ihre Situation (in den letzten sieben Tagen) zu?",
     "scale": "in paid work / in education / unemployed and actively looking for work / unemployed and not actively looking for work / Permanently sick or disabled / retired / doing housework, looking after children or other persons / in military service / other",
+    "scale_de": "Bezahlte Tätigkeit / Schule/Ausbildung / Arbeitslos und auf aktiver Suche nach einem Arbeitsplatz /Arbeitslos , keine aktive Suche / Chronisch krank oder behindert / m Vorruhestand/Ruhestand/Frührente/Rente / Hausarbeit, Betreuung von Kindern oder anderen Personen / Sonstiges",
     "round": "11",
     "source": "ESS"
   },
@@ -916,6 +1006,7 @@
     "source_en": "Can I just check, did you do any paid work of an hour or more in the last seven days?",
     "trans_de": "Darf ich noch einmal nachfragen: Haben Sie in den letzten sieben Tagen irgendeine bezahlte Tätigkeit von einer Stunde oder mehr ausgeübt?",
     "scale": "Yes / No ",
+    "scale_de": "Ja / Nein",
     "round": "11",
     "source": "ESS"
   },
@@ -926,6 +1017,7 @@
     "source_en": "Have you ever had a paid job?",
     "trans_de": "Sind Sie jemals einer bezahlten Tätigkeit nachgegangen?",
     "scale": "Yes / No ",
+    "scale_de": "Ja / Nein",
     "round": "11",
     "source": "ESS"
   },
@@ -936,6 +1028,7 @@
     "source_en": "In what year were you last in a paid job?",
     "trans_de": "In welchem Jahr sind Sie zum letzten Mal einer bezahlten Tätigkeit nachgegangen?",
     "scale": "Numeric (Year)",
+    "scale_de": "Numerisch (Jahr)",
     "round": "11",
     "source": "ESS"
   },
@@ -946,6 +1039,7 @@
     "source_en": "In your main job, {do/did} you have any responsibility for supervising the work of other employees?",
     "trans_de": "Gehört/Gehörte es in Ihrem Hauptberuf zu Ihren Aufgaben, die Arbeit anderer Mitarbeiter zu beaufsichtigen?",
     "scale": "Yes / No ",
+    "scale_de": "Ja / Nein",
     "round": "11",
     "source": "ESS"
   },
@@ -956,6 +1050,7 @@
     "source_en": "What {are/were} your total ‘basic’ or contracted hours each week (in your main job), excluding any paid and unpaid overtime?",
     "trans_de": "Denken Sie bitte noch einmal an Ihren Hauptberuf: Wie viele Stunden pro Woche beträgt/betrug Ihre reguläre oder im Arbeitsvertrag festgelegte Arbeitszeit - ohne bezahlte oder unbezahlte Überstunden?",
     "scale": "Numeric (Hour)",
+    "scale_de": "Numerisch (Stunde)",
     "round": "11",
     "source": "ESS"
   },
@@ -966,6 +1061,7 @@
     "source_en": "Regardless of your basic or contracted hours, how many hours {do/did} you normally work a week (in your main job), including any paid or unpaid overtime.",
     "trans_de": "Wie viele Stunden arbeiten/arbeiteten Sie normalerweise tatsächlich in einer Woche in Ihrem Hauptberuf, einschließlich bezahlter oder unbezahlter Überstunden?",
     "scale": "Numeric (Hour)",
+    "scale_de": "Numerisch (Stunde)",
     "round": "11",
     "source": "ESS"
   },
@@ -976,6 +1072,7 @@
     "source_en": "What {does/did} the firm/organisation you {work/worked} for mainly make or do?",
     "trans_de": "Was produziert/produzierte oder macht/machte der Betrieb oder die Dienststelle, für die Sie arbeiten/arbeiteten, hauptsächlich?",
     "scale": " Text ",
+    "scale_de": "Text",
     "round": "11",
     "source": "ESS"
   },
@@ -986,6 +1083,7 @@
     "source_en": "What {is/was} the name or title of your main job?",
     "trans_de": "Was ist/war die genaue Bezeichnung Ihres Hauptberufes?",
     "scale": " Text ",
+    "scale_de": "Text",
     "round": "11",
     "source": "ESS"
   },
@@ -996,6 +1094,7 @@
     "source_en": "In your main job, what kind of work {do/did} you do most of the time?",
     "trans_de": "Welche Tätigkeiten üben/übten Sie überwiegend in Ihrem Hauptberuf aus?",
     "scale": " Text ",
+    "scale_de": "Text",
     "round": "11",
     "source": "ESS"
   },
@@ -1006,6 +1105,7 @@
     "source_en": "What training or qualifications {are/were} needed for the job?",
     "trans_de": "Welche Ausbildung oder Qualifikationen sind/waren für Ihren Hauptberuf erforderlich?",
     "scale": " Text ",
+    "scale_de": "Text",
     "round": "11",
     "source": "ESS"
   },
@@ -1016,6 +1116,7 @@
     "source_en": "In the last 10 years have you done any paid work in another country for a period of 6 months or more?",
     "trans_de": "Haben Sie in den letzten 10 Jahren für 6 Monate oder länger eine bezahlte Tätigkeit im Ausland ausgeübt?",
     "scale": "Yes / No ",
+    "scale_de": "Ja / Nein",
     "round": "11",
     "source": "ESS"
   },
@@ -1026,6 +1127,7 @@
     "source_en": "Have you ever been unemployed and seeking work for a period of more than three months?",
     "trans_de": "Waren Sie jemals mehr als drei Monate arbeitslos und auf Arbeitssuche?",
     "scale": "Yes / No ",
+    "scale_de": "Ja / Nein",
     "round": "11",
     "source": "ESS"
   },
@@ -1036,6 +1138,7 @@
     "source_en": "Are you or have you ever been a member of a trade union or similar organisation? IF YES, is that currently or previously?",
     "trans_de": "Sind Sie gegenwärtig oder waren Sie früher Mitglied einer Gewerkschaft oder einer ähnlichen Organisation? WENN JA , sind Sie gegenwärtig oder waren Sie früher Mitglied?",
     "scale": "Yes, currently / Yes, previously / No ",
+    "scale_de": "Ja, heute noch / Ja, früher einmal / Nein, nie",
     "round": "11",
     "source": "ESS"
   },
@@ -1046,6 +1149,7 @@
     "source_en": "Please consider the income of all household members and any income which may be received by the household as a whole. What is the main source of income in your household?",
     "trans_de": "Bitte denken Sie einmal an das Einkommen aller Haushaltsmitglieder und an alle Einkommensarten, die der Haushalt bezieht. Was ist die wichtigste Einkommensquelle Ihres Haushaltes?",
     "scale": " Wages or salaries / Income from self-employment (excluding farming) / Income from farming / Pensions / Unemployment/redundancy benefits / Any other social benefit / Income from investment, savings, insurance or property / Income from other source",
+    "scale_de": "Löhne oder Gehälter / Einkommen aus selbständiger oder freiberuflicher Tätigkeit (ausgenommen Landwirtschaft) / Einkommen aus Landwirtschaft / Renten oder Pensionen / Arbeitslosengeld / Bürgergeld oder Abfindungen / Andere Sozialleistungen (Sozialhilfe, Bafög usw.) / Einkommen aus Vermögensanlagen, Ersparnissen, Versicherungen, Grundbesitz oder Immobilien / Einkommen aus anderen Quellen",
     "round": "11",
     "source": "ESS"
   },
@@ -1056,6 +1160,7 @@
     "source_en": "When you were 14, did your father work as an employee, was he self-employed, or was he not working then?",
     "trans_de": "Als Sie 14 Jahre alt waren, hat Ihr Vater da als abhängig Beschäftigter gearbeitet, war er selbständig oder ist er damals keiner bezahlten Tätigkeit nachgegangen?",
     "scale": "Employee / Self-employed / Not working / Father dead or absent when you were 14",
+    "scale_de": "Abhängig Beschäftigter / Selbständig / Keine bezahlte Tätigkeit / Vater bereits verstorben/lebte nicht im Haushalt als Befragte(r) 14 war",
     "round": "11",
     "source": "ESS"
   },
@@ -1066,6 +1171,7 @@
     "source_en": "When you were 14, did your mother work as an employee, was she self-employed, or was she not working then?",
     "trans_de": "Als Sie 14 Jahre alt waren, hat Ihre Mutter da als abhängig Beschäftigte gearbeitet, war sie selbständig oder ist sie damals keiner bezahlten Tätigkeit nachgegangen?",
     "scale": "Employee / Self-employed / Not working / Mother dead or absent when you were 14",
+    "scale_de": "Abhängig Beschäftigte / Selbständig / Keine bezahlte Tätigkeit / Mutter bereits verstorben/lebte nicht im Haushalt als Befragte(r) 14 war",
     "round": "11",
     "source": "ESS"
   },
@@ -1076,6 +1182,7 @@
     "source_en": "During the last twelve months, have you taken any course or attended any lecture or conference to improve your knowledge or skills for work?",
     "trans_de": "Haben Sie während der letzten 1 Monate Kurse belegt oder Vorträge oder Veranstaltungen besucht, die Ihrer beruflichen Fort- und Weiterbildung dienten?",
     "scale": "Yes / No ",
+    "scale_de": "Ja / Nein",
     "round": "11",
     "source": "ESS"
   },
@@ -1086,6 +1193,8 @@
     "source_en": "How would you describe your ancestry?",
     "trans_de": "Wie würden Sie Ihre familiäre Herkunft beschreiben?",
     "scale": " Text (up to 2 ancestries)",
+    "scale_de": "Text (bis zu 2 Herkunftsangaben)",
     "round": "11",
     "source": "ESS"
-  }]
+  }
+]
