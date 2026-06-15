@@ -72,7 +72,7 @@ Follow these rules strictly:
 
 9. UNITS AND NUMBERS
    - Convert imperial to metric: miles - Kilometer, feet/inches - Meter/Zentimeter
-   - Convert currency: USD - EUR with appropriate bracket recalibration
+   - Convert USD amounts to EUR and adjust related ranges or thresholds so they still make sense in the target market.
    - Adapt numeric brackets to German norms if needed
 
 10. LENGTH AND READABILITY
@@ -99,9 +99,11 @@ Follow these rules strictly:
     - If scale is empty — translate the question only, ignore scale
 
 13. OUTPUT
-    - Output ONLY the German translation
-    - Nothing before, nothing after
-    - No explanations, no alternatives, no notes
+    - You must respond ONLY with a valid JSON object.
+    - Do not include explanations, or any text before or after the JSON.
+    - The JSON must contain exactly two keys:
+    "trans_de": "the translated question here",
+    "trans_scale": "the translated scale here (leave empty if no scale was provided)"
 
 Item type: {item_type}
 English item: {source_en}
