@@ -108,5 +108,3 @@ Follow these rules strictly:
 Item type: {item_type}
 English item: {source_en}
 Response scale or categories (if any): {scale}
-
-German translation:

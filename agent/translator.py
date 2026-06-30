@@ -1,3 +1,5 @@
+from unittest import result
+
 import torch
 import yaml
 from transformers import AutoTokenizer, AutoModelForCausalLM
@@ -46,14 +48,14 @@ class Translator:
         print(f"From path: {self.model_path}")
 
         self.tokenizer = AutoTokenizer.from_pretrained( self.model_path, trust_remote_code=True)
-        self.model = AutoModelForCausalLM.from_pretrained(self.model_path, torch_dtype   = torch.float16, device_map = "auto", trust_remote_code = True)
+        self.model = AutoModelForCausalLM.from_pretrained(self.model_path, dtype = torch.float16, device_map = "auto", trust_remote_code = True)
         self.model.eval()
 
         print(f"Model loaded: {self.model_name}")
 
 
     # Translation 
-    def translate(self, source_en: str, item_type: str, scale: str = "") -> str:
+    def translate(self, source_en: str, item_type: str, scale: str = "") -> dict:
         """
         Translate a single English survey item into German.
         Args:
@@ -62,7 +64,7 @@ class Translator:
             scale     : response scale or empty string
 
         Returns:
-            German translation as string
+            Dictionary containing the German translation and scale
         """
         # fill prompt template
         prompt = self.prompt_template.format(
@@ -141,7 +143,8 @@ class Translator:
             )
 
             result = item.copy()
-            result["translation_de"] = translation
+            result["model_trans_de"] = translation.get("trans_de", "")
+            result["model_trans_scale"] = translation.get("trans_scale", "")
             result["model"] = self.model_name
             results.append(result)
 
