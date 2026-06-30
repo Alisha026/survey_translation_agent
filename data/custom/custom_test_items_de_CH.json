@@ -1,0 +1,412 @@
+[
+  {
+    "id": "item_01",
+    "category": "lexical_accuracy",
+    "item_type": "attitudinal",
+    "source_en": "Will you eventually apply for citizenship?",
+    "trans_de": "Werden Sie in der Zukunft die Staatsbürgerschaft beantragen?",
+    "scale": "Yes / No / Not sure",
+    "scale_de": "Ja / Nein / Nicht sicher",
+    "problem": "'Eventually' means 'at some point in the future' but the German cognate 'eventuell' means 'possibly/maybe'. Its completely changes the question meaning."
+  },
+  {
+    "id": "item_02",
+    "category": "lexical_accuracy",
+    "item_type": "attitudinal",
+    "source_en": "How sensible is this policy to you?",
+    "trans_de": "Wie sinnvoll erscheint Ihnen diese Vorgehensweise?",
+    "scale": "Not at all sensible / Rather not sensible / Rather sensible / Very sensible",
+    "scale_de": "Überhaupt nicht sinnvoll / Eher nicht sinnvoll / Eher sinnvoll/ Sehr sinnvoll",
+    "problem": "'Sensible' means 'reasonable/practical' in English but the German cognate 'sensibel' means 'sensitive/delicate'. It inverts the intended meaning."
+  },
+  {
+    "id": "item_03",
+    "category": "lexical_accuracy",
+    "item_type": "behavioral",
+    "source_en": "Do you use a gymnasium?",
+    "trans_de": "Nutzen Sie eine Sporthalle?",
+    "scale": "Yes / No",
+    "scale_de": "Ja / Nein",
+    "problem": "'Gymnasium' in English means a sports hall but in German it means an academic secondary school. Same word, completely different institution."
+  },
+  {
+    "id": "item_04",
+    "category": "lexical_accuracy",
+    "item_type": "attitudinal",
+    "source_en": "How sympathetic are you to the demands of the protestors?",
+    "trans_de": "Inwieweit unterstützen Sie die Forderungen der Protestierenden?",
+    "scale": "0-10 (Not at all sympathetic - Completely sympathetic)",
+    "scale_de": "0-10 (Überhaupt nicht unterstützend - Vollständig unterstützend)",
+    "problem": "'Sympathetic' in English means compassionate or understanding. The German cognate 'sympathisch' means likeable or pleasant. Shifts the construct from empathy to personal appeal."
+  },
+  {
+    "id": "item_05",
+    "category": "lexical_accuracy",
+    "item_type": "attitudinal",
+    "source_en": "To what extent do you find the current situation adequate?",
+    "trans_de": "Inwieweit halten Sie die derzeitige Situation für angemessen?",
+    "scale": "Not at all / Slightly / Moderately / Largely / Completely",
+    "scale_de": "Überhaupt nicht / Kaum / Teilweise / Weitgehend / Vollständig",
+    "problem": "'Adequate' in English means sufficient or acceptable. The German cognate 'adäquat' exists but sounds overly formal and technical — 'angemessen' is the natural equivalent but carries a slightly different evaluative weight."
+  },
+  {
+    "id": "item_06",
+    "category": "sense_disambiguation",
+    "item_type": "attitudinal",
+  "source_en": "Over the past two weeks, how often have you felt depressed?",
+  "trans_de": "Wie oft haben Sie sich in den letzten zwei Wochen niedergeschlagen gefühlt?",
+  "scale": "Not at all / Several days / More than half the days / Nearly every day",
+  "scale_de": "Überhaupt nicht / An einzelnen Tagen / An mehr als der Hälfte der Tage / Fast jeden Tag",
+    "problem": "'Depressed' is polysemous. It can mean clinical depression or everyday low mood. German requires choosing between 'deprimiert' (colloquial, mild) or 'depressiv' (clinical) or 'niedergeschlagen' (dejected). This choice affects construct validity."
+  },
+  {
+    "id": "item_07",
+    "category": "sense_disambiguation",
+    "item_type": "attitudinal",
+    "source_en": "How engaged are you in your local community?",
+    "trans_de": "Wie aktiv sind Sie in Ihrer lokalen Gemeinschaft engagiert?",
+    "scale": "Not at all engaged / Slightly engaged / Moderately engaged/ Quite engaged / Very engaged",
+    "scale_de": "Überhaupt nicht  engagiert / Kaum engagiert/ Mäßig engagiert/ Ziemlich  engagiert/ Sehr engagiert",
+    "problem": "'Engaged' is ambiguous. It can mean emotionally involved, actively participating, or formally committed. German requires a specific word: 'engagiert' (active), 'verbunden' (emotionally connected), 'beteiligt' (participating) each measures something different."
+  },
+  {
+    "id": "item_08",
+    "category": "sense_disambiguation",
+    "item_type": "attitudinal",
+    "source_en": "How satisfied are you with your current position?",
+    "trans_de": "Wie zufrieden sind Sie mit Ihrer derzeitigen Situation?",
+    "scale": "0-10 (Extremely dissatisfied - Extremely satisfied)",
+    "scale_de": "0-10 (Sehr unzufrieden - Sehr zufrieden)",
+    "problem": "'Position' can mean job title, physical location, or social standing. German requires disambiguation: 'Stelle' (job), 'Position' (rank), 'Situation' (general standing). Each targets a different construct."
+  },
+  {
+    "id": "item_09",
+    "category": "sense_disambiguation",
+    "item_type": "attitudinal",
+    "source_en": "How safe do you feel in your neighborhood?",
+    "trans_de": "Wie sicher fühlen Sie sich in Ihrer Nachbarschaft?",
+    "scale": "0-10 (Not at all safe - Completely safe)",
+    "scale_de": "0-10 (Überhaupt nicht sicher - Vollständig sicher)",
+    "problem": "'Safe' in English covers both physical safety and emotional security. German distinguishes 'sicher' (objectively safe, secure) from 'geborgen' (emotionally safe, sheltered). The choice changes what construct is measured."
+  },
+  {
+    "id": "item_10",
+    "category": "sense_disambiguation",
+    "item_type": "behavioral",
+     "source_en": "How often, if at all, do you practice a religion?",
+    "trans_de": "Wie oft praktizieren Sie,  wenn überhaupt, eine Religion?",
+    "scale": "Never / A few times a year / About once a month / About once a week / Every day",
+    "scale_de": "Nie / Ein paar Mal im Jahr / Etwa einmal im Monat / Etwa einmal pro Woche / Täglich",
+    "problem": "'Practice' is ambiguous. It can mean attending services, private prayer, or living by religious principles. German 'praktizieren' implies formal observance while 'ausüben' is broader. The choice narrows or widens the construct."
+  },
+  {
+    "id": "item_11",
+    "category": "conceptual_equivalence",
+    "item_type": "sociodemographic",
+   "source_en": "What is the highest level of education you have completed?",
+    "trans_de": "Welchen höchsten Bildungsabschluss haben Sie bisher erreicht?",
+    "scale": "No high school / High school diploma / Some college, no degree / Bachelor's degree / Graduate degree",
+    "scale_de": "Kein Abschluss / Hauptschulabschluss / Realschulabschluss (Mittlere Reife) / Fachhochschulreife oder Abitur / Abgeschlossene Berufsausbildung / Hochschulabschluss (Bachelor/Master/Diplom/Promotion)",
+    "problem": "The US education system categories do not map onto the German system (Hauptschule, Realschule, Abitur, Ausbildung, Hochschulabschluss). Direct translation produces categories that do not exist or overlap in Germany."
+  },
+  {
+    "id": "item_12",
+    "category": "conceptual_equivalence",
+    "item_type": "sociodemographic",
+    "source_en": "Do you identify as Hispanic or Latino?",
+    "trans_de": "Identifizieren Sie sich als Hispanic oder Latino?",
+    "scale": "Yes / No / Prefer not to say",
+    "scale_de": "Ja / Nein / Möchte ich nicht angeben",
+    "problem": "Hispanic/Latino is a US-specific ethnic category with no equivalent in German demographic classification. Keep the English term, if one really wants to keep this question in German."
+  },
+  {
+    "id": "item_13",
+    "category": "conceptual_equivalence",
+    "item_type": "sociodemographic",
+    "source_en": "How many people live in your household including yourself?",
+    "trans_de": "Wie viele Personen leben insgesamt in Ihrem Haushalt (einschließlich Ihnen selbst)?",
+    "scale": "open numeric",
+    "scale_de": "Numerische Angabe",
+    "problem": "'Household' has different legal and cultural definitions across countries. In Germany 'Haushalt' can refer to a shared residence or a tax/administrative unit, which changes what respondents include in their count."
+  },
+  {
+    "id": "item_14",
+    "category": "conceptual_equivalence",
+    "item_type": "sociodemographic",
+    "source_en": "Are you currently enrolled in middle school?",
+    "trans_de": "Besuchst du derzeit die Mittelstufe (Klasse 7 bis 9)?",
+    "scale": "Yes / No",
+    "scale_de": "Ja / Nein",
+    "problem": "'Middle school' is a US educational institution covering grades 6-8. Germany has no direct equivalent. 'Mittelschule' exists only in some German states and refers to a different type of school entirely."
+  },
+  {
+    "id": "item_15",
+    "category": "cultural_institutional_referent",
+    "item_type": "attitudinal",
+    "source_en": "How much do you trust Congress to make decisions in your interest?",
+    "trans_de": "Wie viel Vertrauen haben Sie in den Deutschen Bundestag, Entscheidungen in Ihrem Interesse zu treffen?",
+    "scale": "0-10 (No trust at all - Complete trust)",
+    "scale_de": "0-10 (Kein Vertrauen - Vollstes Vertrauen)",
+    "problem": "'Congress' is a US-specific institution. Translating as 'Kongress' produces a word that means a conference or convention in German, not a legislative body. The equivalent would be 'Bundestag' but that changes the referent entirely."
+  },
+  {
+    "id": "item_16",
+    "category": "cultural_institutional_referent",
+    "item_type": "behavioral",
+    "source_en": "Did you file your taxes with the IRS last year?",
+    "trans_de": "Haben Sie im letzten Jahr Ihre Steuern beim Finanzamt eingereicht?",
+    "scale": "Yes / No / Not applicable",
+    "scale_de": "Ja / Nein / Nicht zutreffend",
+    "problem": "The IRS is a US-specific institution with no German equivalent. The German equivalent is 'Finanzamt' but the tax filing process is fundamentally different. Germans often do not need to file at all."
+  },
+    {
+    "id": "item_17",
+    "category": "cultural_institutional_referent",
+    "item_type": "attitudinal",
+    "source_en": "How confident are you that the Federal Reserve can keep inflation under control?",
+    "trans_de": "Wie zuversichtlich sind Sie, dass die Europäische Zentralbank (EZB) die Inflation unter Kontrolle halten kann?",
+    "scale": "0-10 (Not at all confident - Completely confident)",
+    "scale_de": "0–10 (Überhaupt nicht zuversichtlich – Voll und ganz zuversichtlich)",
+    "problem": "The Federal Reserve is a US-specific institution. Germany uses the European Central Bank (ECB / EZB), translating as 'Bundesreserve' is meaningless and 'Fed' is recognizable only to financially literate respondents."
+  },
+  {
+    "id": "item_18",
+    "category": "vague_quantifier_calibration",
+    "item_type": "attitudinal",
+    "source_en": "How much do you trust your neighbors?",
+    "trans_de": "Wie sehr vertrauen Sie Ihren Nachbarn?",
+    "scale": "Not at all / A little / Moderately / Very much / Completely",
+    "scale_de": "Überhaupt nicht / Wenig / Einigermaßen / Ziemlich / Voll und ganz",
+    "problem": "'Somewhat' sits between 'a little' and 'mostly' in English but has no precise German equivalent — 'einigermaßen', 'teilweise', and 'ein bisschen' all imply slightly different positions on the scale."
+  },
+  {
+    "id": "item_19",
+    "category": "vague_quantifier_calibration",
+    "item_type": "attitudinal",
+    "source_en": "How likely are you to vote in the next election?",
+    "trans_de": "Wie wahrscheinlich ist es, dass Sie bei der nächsten Wahl Ihre Stimme abgeben?",
+    "scale": "Very unlikely / Unlikely / Somewhat likely / Likely / Very likely",
+    "scale_de": "Sehr unwahrscheinlich / Unwahrscheinlich / Weder wahrscheinlich noch unwahrscheinlich  / Wahrscheinlich / Sehr wahrscheinlich",
+    "problem": "'Somewhat likely' has no direct German equivalent — 'eher wahrscheinlich' leans positive while 'ein bisschen wahrscheinlich' sounds unnatural. The midpoint calibration differs empirically across language groups."
+  },
+  {
+    "id": "item_20",
+    "category": "vague_quantifier_calibration",
+    "item_type": "attitudinal",
+    "source_en": "How important is religion in your daily life?",
+    "trans_de": "Wie wichtig ist Religion in Ihrem Alltag?",
+    "scale": "Not at all important / Slightly important / Moderately important / Very important / Extremely important",
+    "scale_de": "Überhaupt nicht wichtig / Etwas wichtig / Einigermaßen wichtig / Sehr wichtig / Äußerst wichtig",
+    "problem": "'Moderately important' sits at the scale midpoint in English but 'mäßig wichtig' in German sounds slightly negative. 'Ziemlich wichtig' leans positive. No German adverb sits neutrally at the midpoint the way 'moderately' does."
+  },
+  {
+    "id": "item_21",
+    "category": "register_and_politeness",
+    "item_type": "attitudinal",
+    "source_en": "What do you think about immigration?",
+    "trans_de": "Was halten Sie von der Einwanderung?",
+    "scale": "open text",
+    "scale_de": "Freitext",
+    "problem": "English has no T-V distinction but German requires choosing between formal 'Sie' and informal 'du'. For a youth survey 'du' may be appropriate; for a general population survey 'Sie' is required. The source gives no indication which register to use."
+  },
+  {
+    "id": "item_22",
+    "category": "register_and_politeness",
+    "item_type": "behavioral",
+    "source_en": "Tell us about your daily routine.",
+    "trans_de": "Erzähl Sie uns etwas über Ihren Tagesablauf.",
+    "scale": "open text",
+    "scale_de": "Freitext",
+    "problem": "The imperative 'Tell us' is informal in English. In German this requires choosing between 'Erzählen Sie uns' (formal Sie) or 'Erzähl uns' (informal du) a register decision with no source-language signal."
+  },
+  {
+    "id": "item_23",
+    "category": "register_and_politeness",
+    "item_type": "sociodemographic",
+    "source_en": "How old are you?",
+    "trans_de": "Wie alt sind SIe?",
+    "scale": "open numeric",
+    "scale_de": "Numerische Angabe",
+    "problem": "Simplest possible question but still requires T-V decision in German: 'Wie alt sind Sie?' (formal) vs 'Wie alt bist du?' (informal). For elite surveys or older populations formal is mandatory; for youth panels informal may be preferred."
+  },
+  {
+    "id": "item_24",
+    "category": "register_and_politeness",
+    "item_type": "attitudinal",
+    "source_en": "Share your opinion on the current government's performance.",
+    "trans_de": "Sagen Sie uns Ihre Meinung zur Leistung der derzeitigen Regierung.",
+    "scale": "open text",
+    "scale_de": "Freitext",
+    "problem": "The imperative 'Share' is casual and direct in English. German requires register choice: 'Teilen Sie Ihre Meinung' (formal, slightly awkward) or 'Sagen Sie uns Ihre Meinung' (formal, more natural). The phrasing also affects perceived survey formality."
+  },
+  {
+    "id": "item_25",
+    "category": "register_and_politeness",
+    "item_type": "behavioral",
+    "source_en": "Have you ever cheated on an exam?",
+    "trans_de": "Hast Sie schon einmal bei einer Prüfung geschummelt?",
+    "scale": "Yes / No / Prefer not to say",
+    "scale_de": "Ja / Nein / Möchte ich nicht angeben",
+    "problem": "The directness of 'Have you ever cheated' is neutral in English. In German the formal 'Haben Sie jemals bei einer Prüfung geschummelt?' vs informal 'Hast du jemals geschummelt?' implies very different social distances. Register affects willingness to admit sensitive behaviors."
+  },
+  {
+    "id": "item_26",
+    "category": "grammatical_gender",
+    "item_type": "behavioral",
+    "source_en": "How many teachers do you interact with regularly?",
+    "trans_de": "Mit wie vielen Lehrkräften haben Sie regelmäßig Kontakt?",
+    "scale": "open numeric",
+    "scale_de": "Numerische Angabe",
+    "problem": "'Teachers' is gender-neutral in English. German requires marking gender: 'Lehrer' is masculine, 'Lehrerinnen' is feminine. Using only 'Lehrer' excludes female teachers; gender-inclusive forms like 'Lehrkräfte' or 'Lehrer:innen' must be chosen deliberately."
+  },
+  {
+    "id": "item_27",
+    "category": "grammatical_gender",
+    "item_type": "sociodemographic",
+    "source_en": "Are you currently employed as a manager?",
+    "trans_de": "Sind Sie als Führungskraft beschäftigt?",
+    "scale": "Yes / No",
+    "scale_de": "Ja / Nein",
+    "problem": "'Manager' is gender-neutral in English. German requires 'Manager' (masculine default) or 'Manager:in' (inclusive) or 'Führungskraft' (gender-neutral noun) each carries different connotations and inclusivity implications."
+  },
+  {
+    "id": "item_28",
+    "category": "grammatical_gender",
+    "item_type": "attitudinal",
+    "source_en": "Do you feel represented by your elected officials?",
+    "trans_de": "Fühlen Sie sich von Ihren politischen Vertreterinnen und Vertretern repräsentiert?",
+    "scale": "Yes / Somewhat / No",
+    "scale_de": "Ja / Teilweise / Nein",
+    "problem": "'Officials' is gender-neutral in English. German 'Politiker' is masculine generic while 'Politikerinnen und Politiker' is inclusive but lengthy, 'Politikveritreter:innen' is inclusive but unfamiliar — each choice sends a different signal about survey values."
+  },
+  {
+    "id": "item_29",
+    "category": "idiom_metaphor",
+    "item_type": "attitudinal",
+  "source_en": "In the past week, how often did you feel down?",
+    "trans_de": "Wie oft haben Sie sich in der letzten Woche niedergeschlagen gefühlt?",
+    "scale": "On no day / On 1-2 days / On 3-4 days / On 5-7 days",
+    "scale_de": "An keinem Tag / An 1 bis 2 Tagen / An 3 bis 4 Tagen / An 5 bis 7 Tagen", 
+    "problem": "'Feeling blue' is an English idiom for sadness. Literal translation 'sich blau fühlen' means nothing in German 'blau' colloquially means drunk. A functional equivalent like 'sich niedergeschlagen fühlen' must be used instead."
+  },
+  {
+    "id": "item_30",
+    "category": "idiom_metaphor",
+    "item_type": "attitudinal",
+    "source_en": "In the past week, how often did you feel under the weather?",
+    "trans_de": "Wie oft haben Sie sich in der letzten Woche krank gefühlt?",
+    "scale": "On no day / On 1-2 days / On 3-4 days / On 5-7 days",
+    "scale_de": "An keinem Tag / An 1 bis 2 Tagen / An 3 bis 4 Tagen / An 5 bis 7 Tagen", 
+    "problem": "'Under the weather' is an English idiom meaning unwell. Literal translation produces nonsense in German. The functional equivalent 'sich unwohl fühlen' or 'sich krank fühlen' must be chosen based on intended severity."
+  },
+  {
+    "id": "item_31",
+    "category": "idiom_metaphor",
+    "item_type": "attitudinal",
+    "source_en": "In the past month, how often did you feel out of the loop at work?",
+    "trans_de": "Wie oft haben Sie sich im letzten Monat bei der Arbeit nicht auf dem Laufenden gefühlt?",
+    "scale": "On no workdays / On a few workdays / On about half of workdays / On most workdays / On every workday",
+    "scale_de": "An keinem Arbeitstag / An einzelnen Arbeitstagen / An etwa der Hälfte der Arbeitstage / An den meisten Arbeitstagen / An jedem Arbeitstag",
+    "problem": "'Out of the loop' means uninformed or excluded from information sharing. Literal translation produces nonsense in German. The functional equivalent 'nicht informiert sein' or 'das Gefühl haben, ausgeschlossen zu sein' must capture the workplace exclusion construct."
+  },
+  {
+    "id": "item_32",
+    "category": "idiom_metaphor",
+    "item_type": "attitudinal",
+    "source_en": "To what extent do you feel like a fish out of water in social situations?",
+    "trans_de": "Inwieweit fühlen Sie sich in sozialen Situationen fehl am Platz?",
+    "scale": "Not at all / A little /  A lot / Completely",
+    "scale_de": "Überhaupt nicht / Ein wenig /  Sehr / Völlig",
+    "problem": "'Fish out of water' means feeling uncomfortable or out of place. The German equivalent 'wie ein Fisch auf dem Trockenen' exists but is less commonly used 'sich fehl am Platz fühlen' is more natural but loses the idiomatic color of the original."
+  },
+  {
+    "id": "item_33",
+    "category": "negation_and_polarity",
+    "item_type": "likert",
+    "source_en": "People who break the law are not entirely without justification.",
+    "trans_de": "Menschen, die gegen das Gesetz verstoßen, handeln nicht völlig unberechtigt.",
+    "scale": "Strongly agree / Agree / Neither / Disagree / Strongly disagree",
+    "scale_de": "Stimme überhaupt nicht zu / Stimme eher nicht zu / Weder noch / Stimme eher zu / Stimme voll und ganz zu",
+    "problem": "The softened double negative 'not entirely without' signals partial agreement in English. German translation either preserves the complex negation risking misinterpretation or simplifies to a positive statement, changing the construct's deliberate ambiguity."
+  },
+  {
+    "id": "item_34",
+    "category": "scale_label_equivalence",
+    "item_type": "likert",
+    "source_en": "The government should do more to reduce inequality.",
+    "trans_de": "Die Regierung sollte mehr tun, um die Ungleichheit zu verringern.",
+    "scale": "Strongly agree / Agree / Neither agree nor disagree / Disagree / Strongly disagree",
+    "scale_de": "Stimme überhaupt nicht zu / Stimme eher nicht zu / Weder Zustimmung noch Ablehnung / Stimme eher zu / Stimme voll und ganz zu",
+    "problem": "Verbal scale anchors are rarely equidistant across languages. German 'stimme voll zu' vs 'stimme völlig zu' vs 'stimme voll und ganz zu' all translate 'strongly agree' but carry slightly different intensities. The choice affects scale comparability."
+  },
+  {
+    "id": "item_35",
+    "category": "scale_label_equivalence",
+    "item_type": "attitudinal",
+    "source_en": "How satisfied are you with your life?",
+    "trans_de": "Wie zufrieden sind Sie mit Ihrem Leben?",
+    "scale": "Extremely dissatisfied / Dissatisfied / Neither / Satisfied / Extremely satisfied",
+    "scale_de": "Äußerst unzufrieden / Unzufrieden / Weder noch / Zufrieden / Äußerst zufrieden",
+    "problem": "'Extremely' in English maps to both 'äußerst' and 'extrem' in German but these have different intensities and register 'extrem unzufrieden' sounds more colloquial and extreme than the English 'extremely dissatisfied', shifting the scale endpoint perception."
+  },
+  {
+    "id": "item_36",
+    "category": "numeric_unit_conversion",
+    "item_type": "sociodemographic",
+    "source_en": "What is your annual household income?",
+    "trans_de": "Wie hoch ist Ihr jährliches Haushaltseinkommen?",
+    "scale": "Under $25,000 / $25,000-$50,000 / $50,000-$75,000 / Over $75,000",
+    "scale_de": "Unter 25.000 € / 25.000-50.000 € / 50.000-75.000 € / Über 75.000 €",
+    "problem": "Income brackets in USD must be converted to EUR but simple currency conversion is insufficient — purchasing power parity, local cost of living, and salary norms differ. The bracket boundaries lose their intended meaning if mechanically converted."
+  },
+  {
+    "id": "item_37",
+    "category": "numeric_unit_conversion",
+    "item_type": "behavioral",
+    "source_en": "How far do you travel to work?",
+    "trans_de": "Wie weit fahren Sie zur Arbeit?",
+    "scale": "open numeric (miles)",
+    "scale_de": "Numerische Angabe (km)",
+    "problem": "Miles must be converted to kilometers for German respondents."
+  },
+  {
+    "id": "item_38",
+    "category": "numeric_unit_conversion",
+    "item_type": "sociodemographic",
+    "source_en": "What is your height? Please enter in feet and inches.",
+    "trans_de": "Wie groß sind Sie? Bitte geben Sie Ihre Körpergröße in Zentimetern an.",
+    "scale": "open numeric (feet and inches)",
+    "scale_de": "Numerische Angabe (cm)",
+    "problem": "Germany uses the metric system — feet and inches are not understood by most German respondents. The unit must be converted to centimeters and the question format must change accordingly, affecting both comprehension and data comparability."
+  },
+  {
+    "id": "item_39",
+    "category": "numeric_unit_conversion",
+    "item_type": "sociodemographic",
+    "source_en": "What is your weight?",
+    "trans_de": "Wie viel wiegen Sie?",
+    "scale": "open numeric (pounds)",
+    "scale_de": "Numerische Angabe (kg)",
+    "problem": "Pounds are not used in Germany. The metric equivalent is kilograms. A direct pound value is meaningless to German respondents and the conversion factor (1 lb = 0.45 kg) changes the numeric scale substantially, affecting how respondents relate to the brackets."
+  },
+  {
+    "id": "item_40",
+    "category": "reading_load_length",
+    "item_type": "behavioral",
+    "source_en": "How often do you participate in activities organized by voluntary associations, clubs, or other organizations outside of your work and family life?",
+    "trans_de": "Wie oft nehmen Sie außerhalb Ihres Arbeits- und Familienlebens an Aktivitäten von Vereinen, Clubs oder anderen Organisationen teil?",
+    "scale": "Never / Rarely / Sometimes / Often / Always",
+    "scale_de": "Nie / Selten / Manchmal / Oft / Immer",
+    "problem": "The English item uses a series of parallel noun phrases that read naturally. German translation requires grammatical agreement across all listed items and tends to expand the phrasing, increasing reading load and potentially changing which elements respondents process."
+  },
+  {
+    "id": "item_41",
+    "category": "reading_load_length",
+    "item_type": "attitudinal",
+    "source_en": "Considering your current financial situation, housing conditions, and employment status, how would you rate your overall quality of life?",
+    "trans_de": "Wenn Sie Ihre aktuelle finanzielle Situation, Ihre Wohnsituation und Ihren Beschäftigungsstatus berücksichtigen, wie würden Sie Ihre allgemeine Lebensqualität bewerten?",
+    "scale": "Very poor / Poor / Fair / Good / Excellent",
+    "scale_de": "Sehr schlecht / Schlecht / Mittel / Gut / Ausgezeichnet",
+    "problem": "Three-part conditional preamble before the actual question. German translation of conditional clauses requires subordinate clause structures with verb-final word order, significantly increasing syntactic complexity and cognitive processing demands compared to the English original."
+  }
+]
