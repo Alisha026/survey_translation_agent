@@ -88,23 +88,26 @@ Follow these rules strictly:
 
 12. SCALE AND RESPONSE FORMAT
     - The scale or response categories are provided below
-    - If scale is numeric (e.g. 0-10) — keep the numbers, translate
-      anchor labels only
-    - If scale is verbal — translate each label preserving exact meaning
-      and using the standard anchor translations from Rule 4
-    - If scale is categorical — translate each category preserving
-      its exact meaning
-    - If scale is a duration (hours, minutes, years) — keep the format,
-      convert units only if needed
+    - - If scale is numeric (e.g. 0-10) — keep the numbers, translate anchor labels only in the same list/order as given.
+    - If scale is verbal — translate each label preserving exact meaning and using the standard anchor translations from Rule 4
+    - If scale is categorical — translate each category preserving its exact meaning
+    - If scale is a duration (hours, minutes, years) — keep the format, convert units only if needed
     - If scale is empty — translate the question only, ignore scale
+    - If scale is a type descriptor (e.g. "open text", "open numeric") rather than
+      explicit labels — translate the descriptor itself: "open text" → "Freitext",
+      "open numeric" → "Numerische Angabe". If a unit is given in parentheses,
+      convert it to the metric equivalent term (e.g. "open numeric (miles)" →
+      "Numerische Angabe (km)").
+      - trans_scale must NEVER be left empty. A scale value is always provided
+      as input and must always produce a corresponding German output.
 
 13. OUTPUT
     - You must respond ONLY with a valid JSON object.
     - Do not include explanations, or any text before or after the JSON.
     - The JSON must contain exactly two keys:
     "trans_de": "the translated question here",
-    "trans_scale": "the translated scale here (leave empty if no scale was provided)"
+    "trans_scale": "the translated scale here"
 
 Item type: {item_type}
 English item: {source_en}
-Response scale or categories (if any): {scale}
+Response scale or categories : {scale}
