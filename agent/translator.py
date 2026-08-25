@@ -12,12 +12,11 @@ class Translator:
     Loads model from shared cluster storage.
     Uses translate_prompt.txt as instruction template.
     """
-
     def __init__(self, config: dict):
         self.config = config
         self.model_name = config["model"]["name"]
         self.model_path = config["model"]["path"]
-        self.max_new_tokens = config["model"]["max_new_tokens"]
+        self.max_new_tokens = config["model"].get("max_new_tokens", 1024)
 
         # load prompt template
         prompt_path = config["paths"]["translate_prompt"]
@@ -85,8 +84,8 @@ class Translator:
         inputs = self.tokenizer(
             formatted,
             return_tensors = "pt",
-            truncation     = True,
-            max_length     = 2048
+            truncation = True,
+            max_length = 2048
         ).to(self.model.device)
 
         # generate — deterministic for reproducibility
@@ -94,9 +93,8 @@ class Translator:
             outputs = self.model.generate(
                 **inputs,
                 max_new_tokens = self.max_new_tokens,
-                do_sample      = False,
-                temperature    = 1.0,
-                pad_token_id   = self.tokenizer.eos_token_id
+                do_sample = False,
+                pad_token_id = self.tokenizer.eos_token_id
             )
 
         # decode new tokens only — skip the prompt
@@ -108,7 +106,7 @@ class Translator:
 
         cleaned_output = re.sub(r"```json|```", "", translation).strip()
         
-        # 2. Parse the JSON
+        # Parse the JSON
         try:
             parsed_translation = json.loads(cleaned_output)
             return parsed_translation
@@ -148,5 +146,5 @@ class Translator:
             result["model"] = self.model_name
             results.append(result)
 
-        print(f"  Done — {len(results)} items translated")
+        print(f"Done — {len(results)} items translated")
         return results
