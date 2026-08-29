@@ -102,7 +102,7 @@ class Reviewer:
             return True
         
         # Formatting: Markdown/JSON/Code block artifacts
-        if "```" in combined_text or '{"trans_de"' in combined_text:
+        if "```" in combined_text or '{"model_trans_de"' in combined_text:
            return True
         
         # Newline Traps: Check for vertical lists or excessive \n
