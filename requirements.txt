@@ -1,0 +1,9 @@
+transformers
+torch
+numpy
+scikit-learn
+unbabel-comet
+bert-score
+sacrebleu
+pandas
+torch
