@@ -132,7 +132,7 @@ class Reviewer:
                 "issues": [{
                     "category": "PARSE_ERROR",
                     "problem": "Reviewer output could not be parsed as JSON",
-                    "suggested_fix": raw_output[:500]
+                    "suggested_fix": raw_output[:1000]
                 }]
             }
 
