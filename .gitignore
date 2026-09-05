@@ -188,3 +188,4 @@ data/outputs/
 
 # Result (for now, we will ignore all result files but gonna change this later)
 results/
+reviewed/

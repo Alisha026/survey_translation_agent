@@ -6,4 +6,5 @@ unbabel-comet
 bert-score
 sacrebleu
 pandas
+matplotlib
 torch
