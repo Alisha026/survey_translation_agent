@@ -78,9 +78,22 @@ Each custom item includes an English source, English response scale, German refe
 |---|---|---|
 | `mistral` | Mistral-7B-Instruct-v0.3 | Translation, cross-review, and self-correction |
 | `qwen` | Qwen2.5-7B-Instruct | Translation, cross-review, and self-correction |
-| Oracle/judge | Qwen3-32B | Trap evaluation and expert-feedback correction experiment |
+| Oracle/judge | Qwen3.5-27B | Trap evaluation and expert-feedback correction experiment |
 
 The model locations and generation limits are configured in `config.yaml`. The current configuration expects locally available model weights.
+
+## Setup
+
+The experiments were developed with Python 3.10. Run all commands from the repository root. A CUDA-capable GPU is strongly recommended for model inference and COMET/BERTScore evaluation; the Qwen3.5-27B judge and oracle experiments require substantially more GPU memory than the 7B pipeline models.
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+COMET and BERTScore may download model checkpoints when they are not already cached.
+
+Before running inference, update the local model paths in `config.yaml`. The trap judge and oracle corrector have a separate default Qwen3.5-27B path, which can be overridden with `--model-path`.
 
 ## Shared prompting strategy
 
@@ -185,6 +198,7 @@ Generated tables include:
 results/scores_per_item.csv
 results/summary.csv
 results/summary_with_delta.csv
+results/paired_deltas.csv
 ```
 
 For each metric, the evaluator now reports:
@@ -209,84 +223,131 @@ results/cometkiwi_results.csv
 
 ### Trap-focused evaluation
 
-The custom dataset includes an explicit problem description for every item. `agent/check_traps.py` uses Qwen3-32B to judge whether the model successfully avoided that problem.
+The custom dataset includes an explicit problem description for every item. `agent/check_traps.py` uses Qwen3.5-27B to judge whether the model successfully avoided that problem.
 
-An additional oracle experiment in `agent/oracle_corrector.py` supplies the known problem directly to Qwen3-32B as expert feedback before reevaluating the translation.
+```bash
+python agent/check_traps.py --model-path /path/to/Qwen3.5-27B
+```
+
+By default, this checks the Step 1 and Step 3 custom outputs for both models and writes per-item judgments plus a summary to `results/trap_checks/`.
+
+An additional oracle experiment in `agent/oracle_corrector.py` supplies the known problem directly to Qwen3.5-27B as expert feedback before reevaluating the translation.
+
+```bash
+python agent/oracle_corrector.py \
+  --models mistral qwen \
+  --model-path /path/to/Qwen3.5-27B
+
+python agent/check_traps.py \
+  --inputs \
+    data/outputs/step4_oracle_mistral_custom_corrected.json \
+    data/outputs/step4_oracle_qwen_custom_corrected.json \
+  --output-dir results/oracle_trap_checks \
+  --model-path /path/to/Qwen3.5-27B
+```
+
+The oracle correction is applied only to Step 3 items that failed the initial trap check. Its outputs are written to `data/outputs/step4_oracle_*`, with run summaries in `results/oracle_correction_summary.json` and `results/oracle_trap_checks/`.
+
+### Plots
+
+After the metric, trap, and oracle evaluations are available, generate report-ready PNG and PDF figures with:
+
+```bash
+python evaluation/plot.py
+```
+
+This creates combined-score, correction-delta, question-versus-scale, and trap-avoidance figures in `results/plots/` in both PNG and PDF formats. Use `--formats png` or `--formats pdf` to generate only one format.
 
 ## Main results
 
-### Corrected-minus-raw question-only results from the completed run
+### Automatic metric improvements (Step 1 → Step 3)
 
-| Dataset | Model | chrF Δ | BERTScore Δ | COMET Δ |
-|---|---|---:|---:|---:|
-| Custom | Mistral | -1.392 | -0.00409 | -0.01406 |
-| Custom | Qwen | +0.229 | +0.00150 | +0.01148 |
-| ESS | Mistral | +0.257 | -0.00112 | -0.00328 |
-| ESS | Qwen | -0.781 | -0.00039 | -0.00250 |
+The pipeline evaluated 300 aligned item pairs (150 items × 2 models × 2 stages) using reference-based metrics on both questions and response scales separately.
 
-These values were produced by the earlier question-only evaluation run. Rerunning `evaluation/evaluate.py` produces separate question, scale, and combined results; the combined columns become the new headline metrics. In the completed question-only run, Qwen on the custom dataset is the only configuration that improves across chrF, BERTScore, reference-based COMET, and reference-free COMET-QE.
+| Dataset | Model | Combined chrF Δ | Combined BERTScore Δ | Combined COMET Δ | Interpretation |
+|---|---|---:|---:|---:|---|
+| Custom | Mistral | -0.002 | -0.00130 | -0.00100 | Essentially unchanged |
+| Custom | Qwen | +1.232 | +0.01256 | +0.01250 | Improved (2 items corrected) |
+| ESS | Mistral | -0.511 | +0.00320 | -0.00355 | Mixed, mostly unchanged/slightly worse |
+| ESS | Qwen | +2.671 | +0.04188 | +0.01364 | Combined improvement via scale recovery |
 
-### Trap avoidance
+**Key finding**: Only Qwen improves across all three metrics on both datasets. Mistral correction is inconsistent or slightly detrimental. Qwen's ESS improvement is driven primarily by filling ten missing scales; its question-only quality actually declines (−0.657 chrF, −0.00142 BERTScore, −0.00362 COMET).
 
-| Output | Traps avoided |
-|---|---:|
-| Raw Mistral | 16/41 (39.0%) |
-| Corrected Mistral | 15/41 (36.6%) |
-| Raw Qwen | 17/41 (41.5%) |
-| Corrected Qwen | 16/41 (39.0%) |
-| Oracle-corrected output | 21/41 (51.2%) |
+### Structural completeness
 
-The results show that ordinary self-correction does not consistently improve survey translation. The stronger oracle result suggests that the quality and specificity of error diagnosis are central to successful correction.
+| Measure | Step 1 | Step 3 | Improvement |
+|---|---:|---:|---|
+| Empty questions | 0 | 0 | — |
+| Empty scales | 12 | 0 | **All recovered** |
+
+Step 3's strongest measurable success is **recovering all 12 missing response scales**: one Mistral/ESS, one Qwen/custom, and ten Qwen/ESS. No questions are empty at any stage.
+
+### Reviewer performance (Step 2)
+
+The cross-reviewer correctly flags **42/300 items (14.0%)** with 80 total issues recorded. However, manual audit shows:
+
+- **Useful precision (among flagged items)**: ~60–81% depending on model/dataset pair
+- **Severe recall failure**: Reviewer misses many obvious translation problems (grammar errors, semantic shifts, malformed questions)
+- **False positives common**: Even correctly flagged items often contain false or contradictory explanations
+- **Scale detection strong**: 51.3% of findings concern response scales; naturalness and idiom issues are almost absent
+
+**Conclusion**: Useful as a partial error detector but inadequate as an autonomous quality gate without additional rule-based checks.
+
+### Trap avoidance on custom dataset
+
+| Output | Complete traps avoided | Interpretation |
+|---|---:|---|
+| Mistral Step 1 | 16/41 (39.0%) | Baseline performance |
+| Mistral Step 3 | 16/41 (39.0%) | No net improvement from ordinary review/correction |
+| Qwen Step 1 | 21/41 (51.2%) | Stronger baseline |
+| Qwen Step 3 | 21/41 (51.2%) | No net improvement |
+| **Mistral Step 4 oracle** | **34/41 (82.9%)** | With exact error diagnosis |
+| **Qwen Step 4 oracle** | **36/41 (87.8%)** | With exact error diagnosis |
+
+**Ordinary self-correction produces partial component repairs but zero net increase in complete trap resolution.** Example: Qwen/item_11 changes from Chinese to valid German (question component passes) but scale-component equivalence still fails.
+
+**Oracle feedback is transformative**: Providing the exact annotated problem to Qwen3.5-27B enables it to resolve 18/25 failed Mistral traps and 15/20 failed Qwen traps. This demonstrates that **error diagnosis is the bottleneck**: accurate problem identification is substantially more effective than generic reviewer feedback. (Note: This is an upper-bound experimental result; the same Qwen3.5-27B performs both correction and judging, and the judge sees the human reference.)
+
+## Detailed analysis and human audit
+
+Comprehensive manual reviews of each pipeline stage are available in the `reviewed/` directory:
+
+- **[translation_agent_review.md](reviewed/translation_agent_review.md)**: Step 1 output audit. Both models produce understandable German for most items, but neither output is production-ready without human validation. Mistral omits only one scale; Qwen omits eleven scales and contains severe errors including Chinese text.
+
+- **[step2_reviewer_performance.md](reviewed/step2_reviewer_performance.md)**: Step 2 cross-reviewer analysis. Reviewer useful precision is 60–81% but recall is severely limited. It excels at detecting missing scales but misses grammar errors, semantic shifts, and malformed questions. The reviewer is useful as a partial error detector but inadequate as an autonomous quality gate.
+
+- **[step3_correction_results.md](reviewed/step3_correction_results.md)**: Step 3 correction quality. All 12 missing Step 2 scales are recovered. However, manual audit shows only a minority of the 44 changed items are unambiguously better end-to-end; many corrections are partial, cosmetic, or harmful when the corrector follows inaccurate feedback.
+
+- **[final_results_summary.md](reviewed/final_results_summary.md)**: Complete pipeline summary with component-level trap analysis, oracle experiment details, and final conclusions.
 
 ## Project structure
 
 ```text
 survey_translation_agent/
 ├── agent/                 Translation, review, correction, and analysis code
+│   ├── run_translation.py     Step 1: translate items
+│   ├── reviewer.py            Step 2: cross-review translations
+│   ├── corrected.py           Step 3: self-correct based on reviews
+│   ├── check_traps.py          Trap evaluation with judge model
+│   ├── oracle_corrector.py     Step 4: correction with oracle feedback
+│   └── extract_ess_data.py     ESS data alignment and preprocessing
 ├── data/
-│   ├── custom/            Custom diagnostic datasets
+│   ├── custom/            Custom diagnostic datasets (41 items with annotated traps)
 │   ├── raw/               ESS source PDFs
 │   ├── processed/         Aligned ESS datasets
-│   └── outputs/           Step 1, Step 2, and Step 3 model outputs
+│   └── outputs/           Step 1, 2, 3, and 4 model outputs
 ├── evaluation/            Metric calculation and plotting
+│   ├── evaluate.py        Reference-based metrics (chrF, BERTScore, COMET)
+│   ├── metrics.py         Metric computation helpers
+│   └── plot.py            Visualization and report figures
+├── reviewed/              Human audit reports for each pipeline stage
 ├── prompts/               Translation, review, and correction prompts
-├── results/               Metric tables, audits, and figures
-├── scripts/               SLURM job scripts
-├── report/                LaTeX seminar report
-├── config.yaml            Model and path configuration
+├── results/               Metric tables, trap checks, and oracle correction summaries
+├── scripts/               SLURM batch job templates
+├── config.yaml            Model paths, generation limits, and pipeline configuration
 └── requirements.txt       Python dependencies
 ```
 
-## Installation
-
-The experiments were developed with Python 3.10 and GPU inference. Create a virtual environment and install the project dependencies:
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-Additional packages used by the complete project include `PyYAML`, `pdfplumber`, `matplotlib`, and `seaborn`.
-
-The COMET and BERTScore evaluations may download model checkpoints if they are not already cached.
-
-## Seminar report
-
-The full project report is available at:
-
-```text
-report/report.tex
-```
-
-Compile it from the repository root with a LaTeX distribution:
-
-```bash
-latexmk -pdf -interaction=nonstopmode -output-directory=report report/report.tex
-```
-
-Alternatively, upload `report/report.tex` and the figures in `results/` to Overleaf.
-
 ## Summary
 
-This project demonstrates that an LLM review-and-correction pipeline can produce useful improvements in some settings, but additional agent stages do not guarantee higher translation quality. The experiments highlight the importance of precise error diagnosis, survey-specific constraints, response-scale evaluation, and targeted human validation.
+This project demonstrates that an LLM review-and-correction pipeline can produce useful improvements in some settings. The experiments highlight the importance of precise error diagnosis, survey-specific constraints, response-scale evaluation and human validation.
