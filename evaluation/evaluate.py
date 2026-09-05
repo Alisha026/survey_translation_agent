@@ -329,6 +329,5 @@ def main():
     print("\nSummary (mean scores by dataset x model x stage)")
     print(summary.to_string(index=False))
 
-
 if __name__ == "__main__":
     main()
